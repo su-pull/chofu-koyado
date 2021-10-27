@@ -1,0 +1,149 @@
+.textLeft {
+  text-align: left;
+}
+
+.inblo {
+  display: $IB;
+}
+
+.CN {
+ @include CenString;
+}
+
+.margin50p {
+  margin-top: $p50;
+}
+
+.flex-container {
+  display: none;
+}
+
+  .Logo {
+    z-index: 2;
+    position: relative;
+    top: 5px;
+    left: -302px;
+  }
+
+
+.Home {
+  z-index: 1;
+  position: fixed;
+  @include CenString;
+  cursor: pointer;
+  border: none;
+  padding: 80px;
+  font: {
+  family: $Google0;
+  weight: normal;
+  style: italic;
+  size: 30px;
+  }
+}
+
+
+.hikki {
+  font: {
+  family: $Google0;
+  weight: 100;
+  style: italic;
+  }
+}
+
+.C {
+  font-size: $p10;
+}
+
+.colorState {
+  color: $RP;
+  border-bottom: solid 1px $ST;
+  pointer-events: none;
+}
+
+.bgg {
+  z-index: 2;
+  position: fixed;
+  background-color: #ffedeb;
+  padding: 16px;
+  width: $r100;
+  height: $p20;
+  top: $p0;
+  left: $p0;
+}
+
+.Line {
+  display: none;
+}
+
+.disableN {
+  z-index: 3;
+  position: relative;
+  display: $IB;
+  top: -5px;
+  left: 16px;
+}
+
+
+
+.triangle-bottom {
+  display: $IB;
+  border: {
+    style: solid;
+    width: 5px;
+    color: rgb(215,228,255) transparent transparent transparent;
+  }
+}
+
+.Maru {
+  border-radius: $r50;
+}
+
+/* 小物のズーム */
+.Zoom:hover {
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+  }
+
+
+@media screen and (min-width: 740px) {
+/* PC写真のズーム */
+.Zoom-in {
+  transition-duration: 1.5s;
+}
+.Zoom-in:hover {
+  transform: scale(2);
+}
+}
+
+.PM {
+  border: thin solid black;
+}
+
+
+.margin0 {
+  margin: $p0;
+}
+
+.margin10 {
+  margin-top: $p10;
+}
+
+.redLinks {
+  color: $RP;
+}
+
+.Special {
+  color: $FA;
+}
+
+.Time1 {
+  font-weight: 700;
+  font-style: normal;
+  font-size: $p10;
+  color: rgb(215,228,255);
+}
+
+
+
+
+
