@@ -3,6 +3,7 @@ $p5:  5px;
 $p10: $p5*2;
 $p14: $p10*1.4;
 $p20: $p10*2;
+$p40: $p20*2;
 $p50: $p10*5;
 $p60: $p20*3;
 $p80: $p20*4;
@@ -14,26 +15,17 @@ $r25: 25%;
 $r50: $r25*2;
 $r100: $r50*2;
 
-$Google: "Sawarabi Gothic";
-$Google0: "Herr Von Muellerhoff";
+$Google: 'Noto Serif JP', serif;
 
 $IB: inline-block;
 $NO: none;
 
-$BG: #fcfcfc;
+$BG: #fafafa;
 $ST: #666;
 $FA: #ffaaaa;
 $RP: #BC2E50;
 $YE: #fffed5;
 
-
-@mixin Font1 {
-    font-family: "Sawarabi Gothic";
-}
-
-@mixin Font2 {
-    font-family: "Herr Von Muellerhoff";
-}
 
 @mixin LRauto {
     margin-right: auto;
@@ -42,7 +34,7 @@ $YE: #fffed5;
 
 @mixin H1H2 {
     font-size: $p20;
-    border-bottom: 1px solid rgb(215,228,255);
+    border-bottom: 1px solid #eaeaea;
     white-space: nowrap;
     @include LRauto;
 }
@@ -68,7 +60,7 @@ $YE: #fffed5;
 @mixin Menu {
     z-index: 4;
     position: fixed;
-    background-color: rgba(16, 19, 29, 0.95);
+    background-color: #ffedeb;
     left: 0px;
     top: 0px;
     width: $r100;

@@ -9,7 +9,7 @@ export const Contact: React.FC<HTMLTextAreaElement> = () => {
     <Layout>
       <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }}>
         <Head>
-            <title>contact - sou</title>
+            <title>お問い合わせ - 調布のこやど</title>
             <meta name="description" content="コンタクト"/>
         </Head>
         <main className="CN">

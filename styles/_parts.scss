@@ -26,47 +26,23 @@
   }
 
 
-.Home {
-  z-index: 1;
-  position: fixed;
-  @include CenString;
-  cursor: pointer;
-  border: none;
-  padding: 80px;
-  font: {
-  family: $Google0;
-  weight: normal;
-  style: italic;
-  size: 30px;
-  }
-}
-
-
-.hikki {
-  font: {
-  family: $Google0;
-  weight: 100;
-  style: italic;
-  }
-}
-
 .C {
   font-size: $p10;
 }
 
 .colorState {
-  color: $RP;
-  border-bottom: solid 1px $ST;
+  opacity: 0.2;
+  transform: scale(0.95);
   pointer-events: none;
 }
 
 .bgg {
   z-index: 2;
   position: fixed;
-  background-color: #ffedeb;
+  background-color: #fff6f5;
   padding: 16px;
   width: $r100;
-  height: $p20;
+  height: $p40;
   top: $p0;
   left: $p0;
 }
@@ -90,7 +66,7 @@
   border: {
     style: solid;
     width: 5px;
-    color: rgb(215,228,255) transparent transparent transparent;
+    color: #eaeaea transparent transparent transparent;
   }
 }
 

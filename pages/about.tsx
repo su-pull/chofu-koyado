@@ -8,11 +8,11 @@ const About: React.FC  = () => {
     <Layout>
       <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }}>
         <Head>
-          <title>about - sou</title>
+          <title>詳細 - 調布のこやど</title>
           <meta name="description" content="私について"/>
         </Head>
-        <main className="CN">
-          <h1>About</h1>
+        <main className="textLeft CN">
+          <h1>詳細</h1>
           <div className="triangle-bottom" />
           <dl>
             <dt>Name</dt>
