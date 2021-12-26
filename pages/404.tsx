@@ -7,7 +7,6 @@ import Link from 'next/link'
 const NotFound: React.FC = () => {
     return (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }}>
-            <Layout>
                 <Head>
                     <title>404 - sou</title>
                     <meta name="description" content="存在しないページ"/>
@@ -19,7 +18,6 @@ const NotFound: React.FC = () => {
                     <Link href="/"><a className="redLinks scale">Return 404 to TOP</a></Link>
                     </dl>
                 </main>
-            </Layout>
         </motion.div>
     );
 }

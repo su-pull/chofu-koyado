@@ -1,22 +1,40 @@
 import { motion } from "framer-motion";
-import Layout from '../components/Layout/layout'
-import Head from 'next/head'
+import Layout from "../components/Layout/layout";
+import Head from "next/head";
 
 const Location: React.FC = () => {
   return (
-    <Layout>
-      <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }}>
-
-        <Head>
-          <title>場所 - 調布のこやど</title>
-          <meta name="description" content="トップ"/>
-        </Head>
-        <main>
-          tsts
-        </main>
-      </motion.div>
-    </Layout>
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 1 }}
+    >
+      <Head>
+        <title>リンク - こやど</title>
+        <meta name="description" content="リンク" />
+      </Head>
+      <main className="CN">
+        <h1>開催場所</h1>
+        <div className="triangle-bottom" />
+        <dl>
+          <h2>つづじヶ丘駅 徒歩7分</h2>
+          <h2>
+            <a href="https://www.tokyo-satsuki.jp/" className="satsuki">
+              さつきホスピタル病院
+            </a>
+            前. . .
+            <a href="https://soradai.kenseikai-group.or.jp/" className="blue">
+              空と大地と(カフェ)
+            </a>{" "}
+          </h2>
+          <p>詳細の所在地 : 〒182-0005 東京都 調布市東つつじヶ丘2-27-1</p>
+          <p>
+            普段はカフェとして営業中です。美味しいのでぜひ足をお運びください。
+          </p>
+        </dl>
+      </main>
+    </motion.div>
   );
-}
+};
 
 export default Location;

@@ -4,25 +4,24 @@ import Head from 'next/head'
 
 const Links: React.FC = () => {
   return (
-    <Layout>
       <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }}>
         <Head>
-          <title>リンク - 調布のこやど</title>
+          <title>リンクス - こやど</title>
           <meta name="description" content="リンク"/>
         </Head>
         <main className="CN">
           <h1>Links</h1>
             <div className="triangle-bottom" />
           <dl>
+            <dd><a className="redLinks" href="https://ikizura-wh.jimdofree.com" target="_blank">生きづらわーほりプロジェクト</a></dd>
+            <dd><a className="redLinks" href="/" target="_blank"></a>引きこもり家族会やまぼうし</dd>
+
             <dd><a className="redLinks" href="/" target="_blank">.........</a></dd>
             <dd><a className="redLinks" href="/" target="_blank">.........</a></dd>
-            <dd><a className="redLinks" href="/" target="_blank">.........</a></dd>
-            <dd><a className="redLinks" href="/" target="_blank">.........</a></dd>
-            <dd><a className="redLinks" href="/" target="_blank">.........</a></dd>
+            <dd><a className="redLinks" href="https://www.ccsw.or.jp" target="_blank">社会福祉協議会</a></dd>
           </dl>
         </main>
       </motion.div>
-    </Layout>
   );
 }
 

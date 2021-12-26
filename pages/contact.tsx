@@ -6,13 +6,13 @@ import Head from 'next/head'
 export const Contact: React.FC<HTMLTextAreaElement> = () => {
   const { setName, setMail, setMessage, send } = useMail();
   return (
-    <Layout>
       <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }}>
         <Head>
             <title>お問い合わせ - 調布のこやど</title>
             <meta name="description" content="コンタクト"/>
         </Head>
         <main className="CN">
+        <h1>Contact</h1>
           <form>
             <dl>
               <dt><label htmlFor="name">Name*</label></dt>
@@ -28,7 +28,6 @@ export const Contact: React.FC<HTMLTextAreaElement> = () => {
           </form>
         </main>
       </motion.div>
-    </Layout>
   );
 }
 

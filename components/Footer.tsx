@@ -6,7 +6,7 @@ const Footer: React.FC = () => {
             <footer>
                 <Link href="/">
                     <a className="scale">
-                        <div className="inblo C">Copyright ©2021 調布のこやど</div>
+                        <div className="inblo C">Copyright ©2021 こやどの会</div>
                     </a>
                 </Link>
             </footer>
