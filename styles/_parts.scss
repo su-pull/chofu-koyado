@@ -22,6 +22,11 @@
   color: #ffaaaa;
 }
 
+.Kaiten:hover {
+  transform: rotate(-360deg);
+  transition-duration: 2s;
+}
+
 .flex-container {
   display: none;
 }

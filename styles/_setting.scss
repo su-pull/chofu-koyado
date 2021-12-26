@@ -34,7 +34,6 @@ $YE: #fffed5;
 @mixin H1H2 {
   font-size: $p20;
   border-bottom: 1px solid #eaeaea;
-  white-space: nowrap;
   @include LRauto;
 }
 

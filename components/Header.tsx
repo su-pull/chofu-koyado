@@ -13,24 +13,24 @@ const Header: React.FC = () => {
                   <li>こやどの会トップ</li>
                 </a>
               </ActiveLink>
-              <ActiveLink href="/about" activeClassName="colorState">
-                <a className="scale">
-                  <li>会の詳細</li>
-                </a>
-              </ActiveLink>
               <ActiveLink href="/location" activeClassName="colorState">
                 <a className="scale">
                   <li>開催場所</li>
                 </a>
               </ActiveLink>
-              <ActiveLink href="/contact" activeClassName="colorState">
+              <ActiveLink href="/about" activeClassName="colorState">
                 <a className="scale">
-                  <li>お問い合わせ</li>
+                  <li>会の詳細</li>
                 </a>
               </ActiveLink>
               <ActiveLink href="/links" activeClassName="colorState">
                 <a className="scale">
-                  <li>リンクス/支援機関</li>
+                  <li>支援機関</li>
+                </a>
+              </ActiveLink>
+              <ActiveLink href="/contact" activeClassName="colorState">
+                <a className="scale">
+                  <li>お問い合わせ</li>
                 </a>
               </ActiveLink>
             </ul>
