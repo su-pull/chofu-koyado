@@ -1,92 +1,95 @@
 @import "setting";
 
 @media screen and (max-width: 739.98px) {
+  html {
+    height: 100%;
+  }
+  body {
+    width: 90%;
+  }
 
-body {
-  width: 90%;
-}
+  .Humb {
+    border: none;
+    background: #333;
+    padding-top: 26px;
+    padding-bottom: 0px;
+    padding-left: 3px;
+    padding-right: 3px;
+  }
 
-.bgg {
- display: none;
-}
+  .Line {
+    display: inline-block;
+    z-index: 5;
+    position: fixed;
+    right: 5px;
+    top: 5px;
+  }
+  .Line span {
+    display: block;
+    position: relative;
+    height: 2px;
+    width: 24px;
+    background-color: #fff;
+    border-radius: 4px;
+  }
 
-button {
-  border: none;
-  background: #666;
-  padding-top: 31px;
-  padding-bottom: 5px;
-  padding-left: 8px;
-  padding-right: 8px;
-  opacity: 0.5;
-}
+  .Line span:nth-of-type(1) {
+    bottom: 15px;
+  }
 
-.Line {
-  display: inline-block;
-  z-index: 5;
-  position: fixed;
-  right: 15px;
-  bottom: 15px;
-}
-.Line span {
-  display: block;
-  position: relative;
-  height: 2px;
-  width: 24px;
-  background-color: #fff;
-  border-radius: 4px;
-}
+  .Line span:nth-of-type(2) {
+    bottom: 10px;
+  }
 
-.Line span:nth-of-type(1) {
-  bottom: 15px;
-}
+  .Line [aria-expanded="true"] span:nth-of-type(1) {
+    transform: rotate(45deg) translateY(2.5px) translateX(2.5px) scale(1.2);
+    transition-duration: 0.1s;
+  }
 
-.Line span:nth-of-type(2) {
-  bottom: 10px;
-}
+  .Line [aria-expanded="true"] span:nth-of-type(2) {
+    transform: rotate(-45deg) translateY(-2.5px) translateX(2.5px) scale(1.2);
+    transition-duration: 0.1s;
+  }
 
-.Line [aria-expanded='true'] span:nth-of-type(1) { 
-  transform: rotate(45deg) translateY(2.5px) translateX(2.5px) scale(1.2);
-  transition-duration: 0.1s;
-}
+  .Line [aria-expanded="false"] span:nth-of-type(1) {
+    transition-duration: 0.1s;
+  }
 
-.Line [aria-expanded='true'] span:nth-of-type(2) { 
-  transform: rotate(-45deg) translateY(-2.5px) translateX(2.5px) scale(1.2);
-  transition-duration: 0.1s;
-}
+  .Line [aria-expanded="false"] span:nth-of-type(2) {
+    transition-duration: 0.1s;
+  }
 
-.Line [aria-expanded='false'] span:nth-of-type(1) { 
-  transition-duration: 0.1s;
-}
+  .MenuList [aria-expanded="true"] {
+    @include Menu;
+    visibility: visible;
+  }
 
-.Line [aria-expanded='false'] span:nth-of-type(2) { 
-  transition-duration: 0.1s;
-}
+  .MenuList [aria-expanded="false"] {
+    @include Menu;
+    opacity: 0;
+    visibility: unset;
+    transform: translate(20px);
+  }
 
   .disableN {
-    display:none;
+    display: none;
   }
 
-@keyframes feed {
-  from { opacity: 0.05; }
-    to { opacity: 1; }
+  @keyframes feed {
+    from {
+      opacity: 0.05;
+    }
+    to {
+      opacity: 1;
+    }
   }
 
-  /* 写真のズーム */
-.Zoom-in {
-  transition-duration: 1.5s;
-}
-
-.Zoom-in:active {
-  transform: scale(1.8);
-  pointer-events: none;
-}
-
-/* ブログとコンタクトのスケール再定義 */
+  /* ブログとコンタクトのスケール再定義 */
 
   input {
     width: 240px;
   }
-  
+
   textarea {
     width: 290px;
     height: 215px;
@@ -97,24 +100,24 @@ button {
   }
 
   /* Topヘッダーモビ */
+  .migiue {
+    position: absolute;
+    top: 8px;
+    left: 5px;
+  }
 
-.flex-container {
-  position: absolute;
-  display: flex;
-  grid-gap: 20px;
-  top: 24px;
-  left: 74px;
+  .toggle {
+    position: absolute;
+    top: 6px;
+    right: 50px;
+  }
+
+  .position {
+    @include CenString;
+    top: -82px;
+    left: -100px;
+  }
+  code {
+    font-size: 10px;
+  }
 }
-
-.Maru {
-  transform: scale(0.8);
-} 
-
-.Logo {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-}
-}
-
-
