@@ -1,0 +1,119 @@
+.textLeft {
+  text-align: left;
+}
+
+.inblo {
+  display: $IB;
+}
+
+.CN {
+  @include CenString;
+}
+
+.margin50p {
+  margin-top: $p50;
+}
+
+.blue {
+  color: skyblue;
+}
+
+.satsuki {
+  color: #ffaaaa;
+}
+
+.Kaiten:hover {
+  transform: rotate(-360deg);
+  transition-duration: 2s;
+}
+
+.flex-container {
+  display: none;
+}
+
+.Logo {
+  z-index: 2;
+  position: relative;
+  top: 5px;
+  left: -302px;
+}
+
+.C {
+  font-size: $p10;
+}
+
+.colorState {
+  opacity: 0.2;
+  transform: scale(0.95);
+  pointer-events: none;
+}
+
+.bgg {
+  z-index: 2;
+  position: absolute;
+  width: $r100;
+  height: 44px;
+  background: #ffceae;
+  top: $p0;
+  left: $p0;
+}
+
+.Line {
+  display: none;
+}
+
+.disableN {
+  z-index: 3;
+  position: relative;
+  display: $IB;
+  top: -5px;
+  left: 16px;
+}
+
+.triangle-bottom {
+  display: $IB;
+  border: {
+    style: solid;
+    width: 5px;
+    color: #eaeaea transparent transparent transparent;
+  }
+}
+
+.Maru {
+  border-radius: $r50;
+}
+
+/* 小物のズーム */
+.Zoom:hover {
+  transform: scale(1.1);
+  transition-duration: 0.2s;
+}
+
+@media screen and (min-width: 740px) {
+  /* PC写真のズーム */
+  .Zoom-in {
+    transition-duration: 1.5s;
+  }
+  .Zoom-in:hover {
+    transform: scale(2);
+  }
+}
+
+.PM {
+  border: thin solid black;
+}
+
+.redLinks {
+  color: $RP;
+}
+
+.Special {
+  color: $FA;
+}
+
+.Time1 {
+  font-weight: 700;
+  font-style: normal;
+  font-size: $p10;
+  color: rgb(215, 228, 255);
+}

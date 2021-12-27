@@ -1,24 +1,38 @@
 // pages/_document.js
-import Document, { DocumentContext, Html, Head, Main, NextScript } from "next/document";
+import Document, {
+  DocumentContext,
+  Html,
+  Head,
+  Main,
+  NextScript,
+} from "next/document";
 
 class MyDocument extends Document {
   static async getInitialProps(ctx: DocumentContext) {
-    const initialProps = await Document.getInitialProps(ctx)
-    return initialProps }
+    const initialProps = await Document.getInitialProps(ctx);
+    return initialProps;
+  }
 
   render() {
     return (
       <Html lang="JA">
         <Head>
-          <link href="/azur.ico" rel="icon"  />
-          <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200&display=swap" rel="stylesheet" />
+          <link href="/azur.ico" rel="icon" />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200&display=swap"
+            rel="stylesheet"
+          />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=M+PLUS+1p&display=swap"
+            rel="stylesheet"
+          />
         </Head>
         <body>
           <Main />
           <NextScript />
         </body>
       </Html>
-    )
+    );
   }
 }
 

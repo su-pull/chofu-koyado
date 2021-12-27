@@ -27,8 +27,9 @@ const Links: React.FC = () => {
             </a>
           </dd>
           <dd>
-            <a className="redLinks" href="/" target="_blank"></a>
-            引きこもり家族会やまぼうし
+            <a className="redLinks" href="/" target="_blank">
+              引きこもり家族会やまぼうし
+            </a>
           </dd>
 
           <dd>
@@ -38,7 +39,7 @@ const Links: React.FC = () => {
           </dd>
           <dd>
             <a className="redLinks" href="/" target="_blank">
-              soon.........
+              ゆ〜るlinks
             </a>
           </dd>
           <dd>
@@ -47,7 +48,7 @@ const Links: React.FC = () => {
               href="https://www.ccsw.or.jp"
               target="_blank"
             >
-              社会福祉協議会
+              社会福祉協議会(提供)
             </a>
           </dd>
         </dl>

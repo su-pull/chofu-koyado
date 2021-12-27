@@ -8,31 +8,31 @@ const Header: React.FC = () => {
         <div className="disableN">
           <nav>
             <ul className="nav1">
-              <ActiveLink href="/" activeClassName="colorState">
-                <a className="scale">
-                  <li>こやどの会トップ</li>
-                </a>
-              </ActiveLink>
-              <ActiveLink href="/location" activeClassName="colorState">
-                <a className="scale">
-                  <li>開催場所</li>
-                </a>
-              </ActiveLink>
-              <ActiveLink href="/about" activeClassName="colorState">
-                <a className="scale">
-                  <li>会の詳細</li>
-                </a>
-              </ActiveLink>
-              <ActiveLink href="/links" activeClassName="colorState">
-                <a className="scale">
-                  <li>支援機関</li>
-                </a>
-              </ActiveLink>
-              <ActiveLink href="/contact" activeClassName="colorState">
-                <a className="scale">
-                  <li>お問い合わせ</li>
-                </a>
-              </ActiveLink>
+              <li>
+                <ActiveLink href="/" activeClassName="headerState">
+                  <a className="scaleLinks">こやどの会トップKoyado Meeting</a>
+                </ActiveLink>
+              </li>
+              <li>
+                <ActiveLink href="/location" activeClassName="headerState">
+                  <a className="scaleLinks">開催場所</a>
+                </ActiveLink>
+              </li>
+              <li>
+                <ActiveLink href="/about" activeClassName="headerState">
+                  <a className="scaleLinks">会の詳細</a>
+                </ActiveLink>
+              </li>
+              <li>
+                <ActiveLink href="/links" activeClassName="headerState">
+                  <a className="scaleLinks">支援機関</a>
+                </ActiveLink>
+              </li>
+              <li>
+                <ActiveLink href="/contact" activeClassName="headerState">
+                  <a className="scaleLinks">お問い合わせ</a>
+                </ActiveLink>
+              </li>
             </ul>
           </nav>
         </div>

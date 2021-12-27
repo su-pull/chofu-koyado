@@ -9,36 +9,14 @@ html {
 body {
   font: {
     family: $Google;
-    weight: normal;
-    size: $p14;
+    size: 14px;
   }
   word-break: break-all;
   text-align: center;
   background: $BG;
   color: $ST;
-  width: 600px;
+  width: $r50;
   @include LRauto;
-}
-
-pre {
-  white-space: pre-wrap;
-}
-
-code {
-  font-size: 12px;
-}
-
-.resizeimage img {
-  width: 100%;
-  transform: scale(0.95);
-}
-
-button {
-  font: {
-    family: $Google;
-    weight: normal;
-    size: 14px;
-  }
 }
 
 li {
@@ -46,27 +24,26 @@ li {
 }
 
 .nav1 {
+  font-size: 12px;
   @include NAV;
 }
 
 .nav2 {
   display: flex;
-  align-items: center;
   flex-direction: column;
   padding: 0px;
   row-gap: 20px;
-  font-size: 14px;
+  font-size: 24px;
 }
 
-.nav3 {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0px;
-  gap: $p20;
+.border {
+  border-bottom: solid 1px $ST;
+  pointer-events: none;
 }
 
-.MenuList {
-  visibility: collapse;
+.CNT {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 dt {
@@ -78,24 +55,21 @@ dd {
 }
 
 a {
-  color: $ST;
+  color: #666;
   text-decoration: none;
 }
 
-.scaleLinks:hover {
+a.scale:hover {
   @include Hover;
 }
 
-.scaleArticle:hover {
+p:hover {
   @include Hover;
-}
-
-p {
-  margin-top: 6px;
 }
 
 h1 {
   @include H1H2;
+  font-family: "Kosugi Maru", sans-serif;
 }
 
 h2 {
@@ -105,10 +79,6 @@ h2 {
 
 h3 {
   @include H3;
-}
-
-h5 {
-  @include H5;
 }
 
 @keyframes feed {
@@ -123,7 +93,7 @@ h5 {
 .footerFix {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 90vh;
 }
 
 footer {
@@ -147,43 +117,17 @@ textarea {
   @include Mbutton;
 }
 
-.migiue {
-  z-index: 5;
-  position: relative;
-  top: -2px;
-  left: -340px;
-  font-size: 24px;
-  width: 100px;
+.MenuList {
+  visibility: collapse;
 }
 
-.space {
-  color: $ST;
-  font-size: $p20;
-  cursor: pointer;
+.MenuList [aria-expanded="true"] {
+  @include Menu;
+  visibility: visible;
 }
 
-.toggle {
-  z-index: 3;
-  position: relative;
-  top: -2px;
-  right: -410px;
-}
-
-.toggle [aria-expanded="true"] {
-  transition-duration: 0.2s;
-}
-
-.toggle [aria-expanded="false"] {
-  transform: rotate(-360deg);
-  transition-duration: 0.2s;
-}
-
-.position {
-  z-index: 1;
-  position: relative;
-  left: 200px;
-  transform: scale(1);
-}
-.m0 {
-  cursor: pointer;
+.MenuList [aria-expanded="false"] {
+  @include Menu;
+  opacity: 0;
+  visibility: unset;
 }
