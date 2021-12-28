@@ -2,7 +2,6 @@ import { AppProps } from "next/app";
 import { AnimatePresence } from "framer-motion";
 import "../styles/globals.scss";
 import "../styles/mobile.scss";
-import "../styles/loader.scss";
 import Head from "next/head";
 import Layout from "../components/Layout/layout";
 
