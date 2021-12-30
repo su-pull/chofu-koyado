@@ -54,7 +54,8 @@ li {
   width: 400px;
   height: 100vh;
   padding: 8% 20px 15%;
-  box-shadow: 8px 0px 8px 1px rgb(0 0 0 / 10%);
+  border-right: solid 1px#eaeaea;
+  box-shadow: 8px 0px 8px 1px rgb(0 0 0 / 1%);
   background-size: 50% auto;
   // background: #ffe2e2;
 }
@@ -69,7 +70,7 @@ li {
   height: 100vh;
   padding: 8% 20px 15%;
   border-left: solid 1px#eaeaea;
-  box-shadow: -8px 0px 8px 1px rgb(0 0 0 / 10%);
+  box-shadow: -8px 0px 8px 1px rgb(0 0 0 / 1%);
   background-size: 50% auto;
 }
 
