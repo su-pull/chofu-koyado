@@ -10,17 +10,12 @@ const SideberLeft: React.FC = () => {
             <ul className="nav1">
               <li>
                 <ActiveLink href="/" activeClassName="headerState">
-                  <a className="scaleLinks">こやどの会トップKoyado Meeting</a>
-                </ActiveLink>
-              </li>
-              <li>
-                <ActiveLink href="/location" activeClassName="headerState">
-                  <a className="scaleLinks">開催場所</a>
+                  <a className="scaleLinks">こやどの会トップ</a>
                 </ActiveLink>
               </li>
               <li>
                 <ActiveLink href="/about" activeClassName="headerState">
-                  <a className="scaleLinks">会の詳細</a>
+                  <a className="scaleLinks">開催予定場所</a>
                 </ActiveLink>
               </li>
               <li>
@@ -29,13 +24,8 @@ const SideberLeft: React.FC = () => {
                 </ActiveLink>
               </li>
               <li>
-                <ActiveLink href="/contact" activeClassName="headerState">
-                  <a className="scaleLinks">お問い合わせ</a>
-                </ActiveLink>
-              </li>
-              <li>
-                <ActiveLink href="/contact" activeClassName="headerState">
-                  <a className="scaleLinks">利用規約/ルール</a>
+                <ActiveLink href="/syousai" activeClassName="headerState">
+                  <a className="scaleLinks">会でやること</a>
                 </ActiveLink>
               </li>
             </ul>

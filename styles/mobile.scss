@@ -9,6 +9,7 @@
   }
 
   .Humb {
+    z-index: 100;
     border: none;
     background: #333;
     padding-top: 26px;
@@ -18,11 +19,12 @@
   }
 
   .Line {
+    z-index: 100;
     display: inline-block;
     z-index: 5;
     position: fixed;
-    right: 5px;
-    top: 5px;
+    right: 10px;
+    top: 12px;
   }
   .Line span {
     display: block;
@@ -68,7 +70,7 @@
     @include Menu;
     opacity: 0;
     visibility: unset;
-    transform: translate(20px);
+    transform: translate(100%);
   }
 
   .disableN {
@@ -101,9 +103,10 @@
 
   /* Topヘッダーモビ */
   .migiue {
+    font-size: 25px;
     position: absolute;
     top: 8px;
-    left: 5px;
+    left: 0px;
   }
 
   .toggle {

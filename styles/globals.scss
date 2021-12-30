@@ -10,7 +10,7 @@ body {
   font: {
     family: $Google;
     weight: normal;
-    size: $p14;
+    size: 18px;
   }
   word-break: break-all;
   text-align: center;
@@ -46,12 +46,13 @@ li {
 }
 
 .SideColumn-left {
+  position: fixed;
   display: flex;
   flex-flow: column;
   position: fixed;
   top: 0;
   left: 0;
-  width: max-content;
+  width: 400px;
   height: 100vh;
   padding: 8% 20px 15%;
   box-shadow: 8px 0px 8px 1px rgb(0 0 0 / 10%);
@@ -60,12 +61,13 @@ li {
 }
 
 .SideColumn-right {
+  position: fixed;
   display: flex;
   flex-flow: column;
   position: fixed;
   top: 0;
   right: 0;
-  width: max-content;
+  width: 400px;
   height: 100vh;
   padding: 8% 20px 15%;
   border-left: solid 1px#eaeaea;
@@ -73,12 +75,20 @@ li {
   background-size: 50% auto;
 }
 
+ul {
+  margin-left: -20px;
+}
+li {
+  margin-top: 20px;
+}
+
 .nav1 {
   position: relative;
+
   font: {
     size: 20px;
   }
-  left: 0px;
+  text-align: center;
   white-space: nowrap;
 }
 
@@ -181,7 +191,7 @@ textarea {
 }
 
 .migiue {
-  z-index: 5;
+  z-index: 1;
   position: relative;
   right: 0px;
   font: {

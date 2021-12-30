@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import Layout from "../components/Layout/layout";
 import Head from "next/head";
 
-const About: React.FC = () => {
+const Location: React.FC = () => {
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -10,30 +10,41 @@ const About: React.FC = () => {
       transition={{ duration: 1 }}
     >
       <Head>
-        <title>詳細 - 調布のこやど</title>
-        <meta name="description" content="私について" />
+        <title>リンク - こやど</title>
+        <meta name="description" content="リンク" />
       </Head>
-      <main className="textLeft CN">
-        <h1>詳細</h1>
+      <main className="CN">
+        <h1>開催場所</h1>
         <div className="triangle-bottom" />
         <dl>
-          <dt>こやどの会のルール</dt>
-          <dd>集まった参加者と協力者と話したいことを話します。</dd>
-          <dt>会の流れ</dt>
-          <p>初めの自己紹介が終わったらグループを作って別れます。</p>
-          <p>自分の行きたい好きなグループに移動しても大丈夫です。</p>
-          <dt>気を付けて欲しいこと</dt>
-          <dd>他人の意見を否定することはやめましょう。</dd>
-          <dt>Thanks</dt>
-          <dd>
-            話したい人、喋りたい人と輪を作って話します。
-            <br />
-            参加者と協力のもとで成り立っています。
-          </dd>
+          <h2>東京(Tokyo)</h2>
+          <br />
+          <h2>
+            <a
+              href="https://www.tokyo-satsuki.jp/"
+              className="satsuki"
+              target="_blank"
+            >
+              さつきホスピタル病院
+            </a>
+            <div className="Kaiten inblo">前</div>. . .
+            <a
+              href="https://soradai.kenseikai-group.or.jp/"
+              className="blue"
+              target="_blank"
+            >
+              空と大地と(カフェ)
+            </a>{" "}
+          </h2>
+          <p>詳細の所在地 : 〒182-0005 東京都 調布市東つつじヶ丘2-27-1</p>
+          <p>駅より徒歩7分</p>
+          <p>
+            普段はカフェとして営業中です。美味しいのでぜひ足をお運びください。
+          </p>
         </dl>
       </main>
     </motion.div>
   );
 };
 
-export default About;
+export default Location;
