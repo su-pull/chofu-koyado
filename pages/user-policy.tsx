@@ -10,7 +10,7 @@ const Links: React.FC = () => {
       transition={{ duration: 1 }}
     >
       <Head>
-        <title>リンクス - こやど</title>
+        <title>利用規約/ルール - こやど</title>
         <meta name="description" content="リンク" />
       </Head>
       <main className="CN">

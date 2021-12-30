@@ -19,7 +19,7 @@ const NotFound: React.FC = () => {
         <div className="triangle-bottom" />
         <dl>
           <Link href="/">
-            <a className="redLinks scale">Return 404 to TOP</a>
+            <a className="redLinks scale">トップに戻る</a>
           </Link>
         </dl>
       </main>

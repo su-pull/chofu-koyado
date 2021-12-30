@@ -10,7 +10,7 @@ const Index: React.FC = () => {
       transition={{ duration: 1 }}
     >
       <Head>
-        <title>ホーム - こやど</title>
+        <title>トップ - こやど</title>
         <meta name="description" content="トップ" />
       </Head>
       <main className="CN">

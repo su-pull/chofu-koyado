@@ -23,7 +23,7 @@ class MyDocument extends Document {
             rel="stylesheet"
           />
           <link
-            href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=M+PLUS+1p&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap"
             rel="stylesheet"
           />
         </Head>

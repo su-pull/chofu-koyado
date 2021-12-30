@@ -10,7 +10,7 @@ const Location: React.FC = () => {
       transition={{ duration: 1 }}
     >
       <Head>
-        <title>リンク - こやど</title>
+        <title>開催予定場所 - こやど</title>
         <meta name="description" content="リンク" />
       </Head>
       <main className="CN">
