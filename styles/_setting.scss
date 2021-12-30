@@ -59,15 +59,6 @@ $ME: rgba(0, 0, 0, 0.75);
   }
 }
 
-@mixin NAV {
-  font: {
-    size: 20px;
-  }
-  position: relative;
-  white-space: nowrap;
-  left: 0px;
-}
-
 @mixin Hover {
   border-bottom: solid 1px $ST;
   transition-duration: 0.1s;

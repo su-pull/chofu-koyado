@@ -45,8 +45,21 @@ li {
   list-style-type: none;
 }
 
+.SideColumn {
+  position: absolute;
+  left: 0%;
+  width: 400px;
+  height: 1080px;
+  background-color: rgb(188, 255, 255);
+}
+
 .nav1 {
-  @include NAV;
+  position: relative;
+  font: {
+    size: 20px;
+  }
+  left: 0px;
+  white-space: nowrap;
 }
 
 .nav2 {
@@ -145,14 +158,6 @@ textarea {
 
 #massageButton {
   @include Mbutton;
-}
-
-.SideColumn {
-  position: absolute;
-  left: 0%;
-  width: 500px;
-  height: 1080px;
-  background-color: rgb(188, 255, 255);
 }
 
 .migiue {
