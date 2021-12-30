@@ -1,10 +1,10 @@
 import ActiveLink from "./Sys/ActiveLink";
 import React from "react";
 
-const Header: React.FC = () => {
+const SideberLeft: React.FC = () => {
   return (
     <div>
-      <header className="SideColumn">
+      <header className="SideColumn-left">
         <div className="disableN">
           <nav>
             <ul className="nav1">
@@ -46,4 +46,4 @@ const Header: React.FC = () => {
   );
 };
 
-export default Header;
+export default SideberLeft;

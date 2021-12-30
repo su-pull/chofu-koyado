@@ -1,5 +1,6 @@
 import React, { useState, ReactNode } from "react";
-import Sideber from "../Sideber";
+import SideberLeft from "../SideberLeft";
+import SideberRight from "../SideberRight";
 import MenuButton from "../MenuButton";
 import Menu from "../Menu";
 import Text from "../Text";
@@ -16,7 +17,8 @@ const Layout: React.FC<Props> = ({ children }) => {
     <>
       <MenuButton open={open} setOpen={setOpen} />
       <Menu open={open} setOpen={setOpen} />
-      <Sideber />
+      <SideberLeft />
+      <SideberRight />
       <Text />
       <div className="footerFix">{children}</div>
       <Footer />

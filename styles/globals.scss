@@ -45,12 +45,32 @@ li {
   list-style-type: none;
 }
 
-.SideColumn {
-  position: absolute;
-  left: 0%;
-  width: 400px;
-  height: 1080px;
-  background-color: rgb(188, 255, 255);
+.SideColumn-left {
+  display: flex;
+  flex-flow: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: max-content;
+  height: 100vh;
+  padding: 8% 20px 15%;
+  box-shadow: 8px 0px 8px 1px rgb(0 0 0 / 10%);
+  background-size: 50% auto;
+  // background: #ffe2e2;
+}
+
+.SideColumn-right {
+  display: flex;
+  flex-flow: column;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: max-content;
+  height: 100vh;
+  padding: 8% 20px 15%;
+  border-left: solid 1px#eaeaea;
+  box-shadow: -8px 0px 8px 1px rgb(0 0 0 / 10%);
+  background-size: 50% auto;
 }
 
 .nav1 {
@@ -168,14 +188,7 @@ textarea {
     size: 30px;
     weight: bold;
   }
-  width: 100px;
   white-space: nowrap;
-}
-
-.space {
-  color: $ST;
-  font-size: $p20;
-  cursor: pointer;
 }
 
 .toggle {
