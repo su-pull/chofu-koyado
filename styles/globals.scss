@@ -147,11 +147,18 @@ textarea {
   @include Mbutton;
 }
 
+.SideColumn {
+  position: absolute;
+  left: 0%;
+  width: 500px;
+  height: 1080px;
+  background-color: rgb(188, 255, 255);
+}
+
 .migiue {
   z-index: 5;
   position: relative;
-  top: -2px;
-  right: -340px;
+  right: 0px;
   font: {
     size: 30px;
     weight: bold;

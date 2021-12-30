@@ -4,7 +4,7 @@ import React from "react";
 const Header: React.FC = () => {
   return (
     <div>
-      <header className="bgg">
+      <header className="SideColumn">
         <div className="disableN">
           <nav>
             <ul className="nav1">
@@ -31,6 +31,11 @@ const Header: React.FC = () => {
               <li>
                 <ActiveLink href="/contact" activeClassName="headerState">
                   <a className="scaleLinks">お問い合わせ</a>
+                </ActiveLink>
+              </li>
+              <li>
+                <ActiveLink href="/contact" activeClassName="headerState">
+                  <a className="scaleLinks">利用規約/ルール</a>
                 </ActiveLink>
               </li>
             </ul>

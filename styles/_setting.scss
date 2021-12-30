@@ -61,17 +61,11 @@ $ME: rgba(0, 0, 0, 0.75);
 
 @mixin NAV {
   font: {
-    size: 12px;
+    size: 20px;
   }
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  grid-gap: $p50;
   white-space: nowrap;
-  left: 160px;
-  top: -10px;
-  color: #fafafa;
+  left: 0px;
 }
 
 @mixin Hover {

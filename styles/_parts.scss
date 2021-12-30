@@ -99,17 +99,6 @@
   pointer-events: none;
 }
 
-.bgg {
-  z-index: 2;
-  position: absolute;
-  width: $r100;
-  height: 30px;
-  background: #ffceae;
-  border-bottom: solid 1px #000000;
-  top: $p0;
-  left: $p0;
-}
-
 .Line {
   display: none;
 }
