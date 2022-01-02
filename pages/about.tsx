@@ -13,7 +13,7 @@ const Location: React.FC = () => {
         <title>開催予定場所 - こやど</title>
         <meta name="description" content="リンク" />
       </Head>
-      <main className="CN">
+      <main className="margin inblo">
         <h1>開催場所</h1>
         <div className="triangle-bottom" />
         <dl>

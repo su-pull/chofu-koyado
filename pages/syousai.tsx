@@ -13,7 +13,7 @@ const About: React.FC = () => {
         <title>会でやること - 調布のこやど</title>
         <meta name="description" content="私について" />
       </Head>
-      <main className="CN">
+      <main className="margin inblo">
         <h1>詳細</h1>
         <p>
           話し合いの最中に何かあれば遠慮なくスタッフ(運営)にすぐにご報告ください。

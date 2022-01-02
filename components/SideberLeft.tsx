@@ -10,7 +10,7 @@ const SideberLeft: React.FC = () => {
             <ul className="nav1">
               <li>
                 <ActiveLink href="/" activeClassName="headerState">
-                  <a className="scaleLinks">こやどの会トップ</a>
+                  <a className="scaleLinks">ちょうふのこやどトップ</a>
                 </ActiveLink>
               </li>
               <li>

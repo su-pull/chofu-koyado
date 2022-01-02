@@ -13,7 +13,7 @@ const Index: React.FC = () => {
         <title>トップ - こやど</title>
         <meta name="description" content="トップ" />
       </Head>
-      <main className="CN">
+      <main className="margin inblo">
         <h1>こやどの会トップ</h1>
         <div>
           生きずらわーほりプロジェクトの行事で開催されているこやどの会です。

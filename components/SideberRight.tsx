@@ -15,7 +15,7 @@ const SideberLeft: React.FC = () => {
               </li>
               <li>
                 <ActiveLink href="/user-policy" activeClassName="headerState">
-                  <a className="scaleLinks">利用規約/ルール</a>
+                  <a className="scaleLinks">サービス利用規約</a>
                 </ActiveLink>
               </li>
             </ul>

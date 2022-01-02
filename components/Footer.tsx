@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
         <Link href="/">
           <a className="scale">
             <div className="inblo C">
-              Copyright ©2021-2022 こやどの会 All rights reserved.
+              Copyright © ちょうふのこやど All rights reserved.
             </div>
           </a>
         </Link>

@@ -13,45 +13,14 @@ const Links: React.FC = () => {
         <title>利用規約/ルール - こやど</title>
         <meta name="description" content="リンク" />
       </Head>
-      <main className="CN">
-        <h1>Links</h1>
+      <main className="margin inblo">
+        <h1>利用規約</h1>
         <div className="triangle-bottom" />
-        <dl>
-          <dd>
-            <a
-              className="redLinks"
-              href="https://ikizura-wh.jimdofree.com"
-              target="_blank"
-            >
-              生きづらわーほりプロジェクト
-            </a>
-          </dd>
-          <dd>
-            <a className="redLinks" href="/" target="_blank">
-              引きこもり家族会やまぼうし
-            </a>
-          </dd>
-
-          <dd>
-            <a className="redLinks" href="/" target="_blank">
-              UX女子会
-            </a>
-          </dd>
-          <dd>
-            <a className="redLinks" href="/" target="_blank">
-              ゆ〜るlinks
-            </a>
-          </dd>
-          <dd>
-            <a
-              className="redLinks"
-              href="https://www.ccsw.or.jp"
-              target="_blank"
-            >
-              社会福祉協議会(提供)
-            </a>
-          </dd>
-        </dl>
+        <ul>
+          <li>他の方の意見を否定しないでください</li>
+          <li>思ってることはできるだけ声にしましょう</li>
+          <li></li>
+        </ul>
       </main>
     </motion.div>
   );
