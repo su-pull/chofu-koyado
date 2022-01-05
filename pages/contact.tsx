@@ -11,7 +11,7 @@ export const Contact: React.FC<HTMLTextAreaElement> = () => {
         <title>お問い合わせ - 調布のこやど</title>
         <meta name="description" content="コンタクト" />
       </Head>
-      <main className="CN">
+      <main className="margin inblo">
         <h1>おといあわせ</h1>
         <div className="triangle-bottom" />
         <form>
