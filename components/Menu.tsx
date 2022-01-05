@@ -23,23 +23,18 @@ const Menu: React.FC<BoolProps> = ({ open, setOpen }) => {
                 </ActiveLink>
               </li>
               <li>
-                <ActiveLink href="/links" activeClassName="headerState">
-                  <a className="scale">支援機関</a>
-                </ActiveLink>
-              </li>
-              <li>
                 <ActiveLink href="/syousai" activeClassName="headerState">
                   <a>会の詳細</a>
                 </ActiveLink>
               </li>
               <li>
-                <ActiveLink href="/contact" activeClassName="headerState">
-                  <a>お問い合わせ</a>
+                <ActiveLink href="/links" activeClassName="headerState">
+                  <a className="scale">リンク</a>
                 </ActiveLink>
               </li>
               <li>
-                <ActiveLink href="/develop" activeClassName="headerState">
-                  <a>利用規約/ルール</a>
+                <ActiveLink href="/contact" activeClassName="headerState">
+                  <a>お問い合わせ</a>
                 </ActiveLink>
               </li>
             </ul>

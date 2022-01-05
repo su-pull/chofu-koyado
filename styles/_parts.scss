@@ -25,35 +25,16 @@
 }
 
 .Kaiten:hover {
-  transform: rotate(-360deg);
+  transform: scale(2) rotate(-360deg);
   transition-duration: 2s;
 }
 
 .margin {
-  margin-top: 250px;
-}
-
-.flex-container {
-  display: none;
+  margin-top: 150px;
 }
 
 .inblo {
   display: $IB;
-}
-
-.scale2:hover {
-  transform: scale(1.55);
-  transition-duration: 1s;
-}
-
-.Home {
-  width: 160px;
-  top: 600px;
-  margin: 0px;
-  border: none;
-  font: {
-    size: 36px;
-  }
 }
 
 .Font {
@@ -73,11 +54,6 @@
   pointer-events: none;
 }
 
-.topState {
-  color: $FB;
-  pointer-events: none;
-}
-
 .Pagi {
   display: flex;
   justify-content: center;
@@ -93,21 +69,8 @@
   border: solid 1px;
 }
 
-.listState {
-  color: white;
-  border: solid 1px transparent;
-  pointer-events: none;
-}
-
 .Line {
   display: none;
-}
-
-.disableN {
-  z-index: 3;
-  position: relative;
-  display: $IB;
-  top: 10px;
 }
 
 .triangle-bottom {

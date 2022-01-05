@@ -1,6 +1,6 @@
 @import "setting";
 
-@media screen and (max-width: 739.98px) {
+@media screen and (max-width: 1400px) {
   html {
     height: 100%;
   }
@@ -17,10 +17,10 @@
     border: none;
     background: rgb(255, 160, 160);
     border-radius: 50%;
-    padding-top: 26px;
-    padding-bottom: 0px;
-    padding-left: 3px;
-    padding-right: 3px;
+    padding-top: 46px;
+    padding-bottom: 20px;
+    padding-left: 23px;
+    padding-right: 23px;
   }
 
   .Line {
@@ -34,8 +34,8 @@
   .Line span {
     display: block;
     position: relative;
-    height: 2px;
-    width: 24px;
+    height: 4px;
+    width: 28px;
     background-color: #fff;
     border-radius: 4px;
   }
@@ -49,12 +49,12 @@
   }
 
   .Line [aria-expanded="true"] span:nth-of-type(1) {
-    transform: rotate(45deg) translateY(2.5px) translateX(2.5px) scale(1.2);
+    transform: rotate(45deg) translateY(3.5px) translateX(2.5px) scale(1.2);
     transition-duration: 0.1s;
   }
 
   .Line [aria-expanded="true"] span:nth-of-type(2) {
-    transform: rotate(-45deg) translateY(-2.5px) translateX(2.5px) scale(1.2);
+    transform: rotate(-45deg) translateY(-3.5px) translateX(2.5px) scale(1.2);
     transition-duration: 0.1s;
   }
 
@@ -79,6 +79,14 @@
   }
 
   .disableN {
+    display: none;
+  }
+
+  .SideColumn-right {
+    display: none;
+  }
+
+  .SideColumn-left {
     display: none;
   }
 
@@ -108,7 +116,6 @@
 
   /* Topヘッダーモビ */
   .migiue {
-    position: absolute;
     font-size: 25px;
     top: 8px;
     left: 0px;

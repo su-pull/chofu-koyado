@@ -4,23 +4,20 @@ import Head from "next/head";
 
 const Links: React.FC = () => {
   return (
-    <motion.div
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ duration: 1 }}
-    >
+    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 0.25 }}>
       <Head>
         <title>利用規約/ルール - こやど</title>
         <meta name="description" content="リンク" />
       </Head>
       <main className="margin inblo">
-        <h1>利用規約</h1>
+        <h1>サービス利用案内</h1>
         <div className="triangle-bottom" />
-        <ul>
-          <li>他の方の意見を否定しないでください</li>
-          <li>思ってることはできるだけ声にしましょう</li>
-          <li></li>
-        </ul>
+        <dl>
+          <h2>輪に馴染めない場合スタッフが話し相手になります。</h2>
+          <h2>他の方の意見を否定しないように心がけましょう。</h2>
+          <h2>思ってることはできるだけ声にしてみましょう。</h2>
+          <h2>時間が以外と少ないので話し合いを大事にします。</h2>
+        </dl>
       </main>
     </motion.div>
   );
