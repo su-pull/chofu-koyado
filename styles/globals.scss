@@ -176,6 +176,10 @@ textarea {
   color: #eeae8c;
 }
 
+.green {
+  color: #008537;
+}
+
 .migiue {
   z-index: 1;
   position: relative;
@@ -209,13 +213,7 @@ textarea {
   top: 5px;
   width: 98%;
   height: 2px;
-  background: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 0.8) 0%,
-    rgba(255, 255, 255, 0.8) 50%,
-    transparent 50%,
-    transparent 100%
-  );
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.8) 50%, transparent 50%, transparent 100%);
   background-size: 12px 4px;
 }
 .migiue:after {
@@ -225,13 +223,7 @@ textarea {
   bottom: 5px;
   width: 98%;
   height: 2px;
-  background: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 0.8) 0%,
-    rgba(255, 255, 255, 0.8) 50%,
-    transparent 50%,
-    transparent 100%
-  );
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.8) 50%, transparent 50%, transparent 100%);
   background-size: 12px 4px;
 }
 
