@@ -17,21 +17,21 @@ export const Contact: React.FC<HTMLTextAreaElement> = () => {
         <form>
           <dl>
             <dt>
-              <label htmlFor="name">おなまえ*</label>
+              <label htmlFor="name">お名前*</label>
             </dt>
             <dd>
               <input type="text" name="name" aria-label="Name area" onChange={(e) => setName(e.target.value)} required />
             </dd>
 
             <dt>
-              <label htmlFor="email">めーるあどれす*</label>
+              <label htmlFor="email">メールアドレス*</label>
             </dt>
             <dd>
               <input type="text" name="name" aria-label="Name area" onChange={(e) => setMail(e.target.value)} required />
             </dd>
 
             <dt>
-              <label htmlFor="massage">めっせーじ</label>
+              <label htmlFor="massage">メッセージ</label>
             </dt>
             <dd>
               <textarea name="massage" aria-label="Massage area" onChange={(e) => setMessage(e.target.value)} required />
