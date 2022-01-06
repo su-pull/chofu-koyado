@@ -12,7 +12,7 @@ const About: React.FC = () => {
       <main className="margin inblo">
         <h1>詳細</h1>
         <div className="triangle-bottom" />
-        <p>話し合いの最中に何かあれば遠慮なくスタッフ(運営)にすぐにご報告ください。</p>
+        <p>話し合いの最中に何かあれば遠慮なくスタッフ(運営)にすぐにご相談ください。</p>
         <dl>参加者と協力のもとで成り立っています。</dl>
       </main>
     </motion.div>
