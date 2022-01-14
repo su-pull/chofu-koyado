@@ -1,6 +1,5 @@
 import { useMail } from ".././hooks/useMail";
 import { motion } from "framer-motion";
-import Layout from "../components/Layout/layout";
 import Head from "next/head";
 
 export const Contact: React.FC<HTMLTextAreaElement> = () => {
@@ -12,9 +11,10 @@ export const Contact: React.FC<HTMLTextAreaElement> = () => {
         <meta name="description" content="コンタクト" />
       </Head>
       <main className="margin inblo">
-        <h1>おといあわせ</h1>
+   
         <div className="triangle-bottom" />
         <form>
+          <h1>おといあわせ</h1>
           <dl>
             <dt>
               <label htmlFor="name">お名前*</label>
