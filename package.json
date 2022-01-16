@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@types/gtag.js": "^0.0.8",
     "@types/nodemailer": "^6.4.4",
     "eslint-config-prettier": "^8.3.0",
     "framer-motion": "^5.0.0",

@@ -1,5 +1,6 @@
 // pages/_document.js
 import Document, { Html, Head, Main, NextScript } from "next/document";
+import { GA_TRACKING_ID } from "../libs/gtag";
 
 class MyDocument extends Document {
   render() {
@@ -9,6 +10,23 @@ class MyDocument extends Document {
           <link href="/azur.ico" rel="icon" />
           <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200&display=swap" rel="stylesheet" />
           <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap" rel="stylesheet" />
+          {GA_TRACKING_ID && (
+            <>
+              <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`} />
+              <script
+                dangerouslySetInnerHTML={{
+                  __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${GA_TRACKING_ID}', {
+              page_path: window.location.pathname,
+            });
+        `,
+                }}
+              />
+            </>
+          )}
         </Head>
         <body>
           <Main />
