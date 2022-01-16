@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import Layout from "../components/Layout/layout";
 import Head from "next/head";
 
 const Links: React.FC = () => {
@@ -33,21 +32,21 @@ const Links: React.FC = () => {
               生きづらわーほりプロジェクト
             </a>
           </dd>
-          <dd>
+          {/* <dd>
             <a className="scaleLinks" href="/" target="_blank">
-              引きこもり家族会やまぼうし
+              <strike>引きこもり家族会やまぼうし</strike>
             </a>
           </dd>
           <dd>
             <a className="scaleLinks" href="/" target="_blank">
-              UX女子会
+              <strike>UX女子会</strike>
             </a>
           </dd>
           <dd>
             <a className="scaleLinks" href="/" target="_blank">
-              ゆ〜るlinks
+              <strike>ゆ〜るlinks</strike>
             </a>
-          </dd>
+          </dd> */}
         </dl>
       </main>
     </motion.div>

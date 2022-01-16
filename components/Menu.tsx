@@ -9,7 +9,7 @@ const Menu: React.FC<BoolProps> = ({ open, setOpen }) => {
   return (
     <div className="MenuList">
       <div aria-expanded={open} onClick={() => setOpen(!open)}>
-        <div className="CN">
+        <div className="CN menu">
           <nav>
             <ul className="nav2">
               <li>

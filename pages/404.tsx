@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import Layout from "../components/Layout/layout";
 import Head from "next/head";
 import Link from "next/link";
 

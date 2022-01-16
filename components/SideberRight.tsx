@@ -4,7 +4,7 @@ import React from "react";
 const SideberLeft: React.FC = () => {
   return (
     <div>
-      <header className="SideColumn-right">
+      <header className="SideColumn-right menu">
         <nav>
           <ul className="nav1">
             <li>
@@ -14,7 +14,12 @@ const SideberLeft: React.FC = () => {
             </li>
             <li>
               <ActiveLink href="/user-policy" activeClassName="headerState">
-                <a className="scaleLinks">サービス利用案内</a>
+                <a className="scaleLinks">Twitter</a>
+              </ActiveLink>
+            </li>
+            <li>
+              <ActiveLink href="/user-policy" activeClassName="headerState">
+                <a className="scaleLinks">Facebook</a>
               </ActiveLink>
             </li>
           </ul>

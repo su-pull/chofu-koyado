@@ -41,10 +41,6 @@ button {
   }
 }
 
-li {
-  list-style-type: none;
-}
-
 .SideColumn-left {
   position: fixed;
   display: flex;
@@ -73,7 +69,12 @@ ul {
   margin-left: -20px;
 }
 li {
+  margin: 20px;
+}
+
+.menu li {
   margin-top: 60px;
+  list-style-type: none;
 }
 
 .nav1 {

@@ -4,7 +4,7 @@ import React from "react";
 const SideberLeft: React.FC = () => {
   return (
     <div>
-      <header className="SideColumn-left">
+      <header className="SideColumn-left menu">
         <nav>
           <ul className="nav1">
             <li>
