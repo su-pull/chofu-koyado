@@ -19,7 +19,7 @@ const SideberLeft: React.FC = () => {
             </li>
             <li>
               <ActiveLink href="/syousai" activeClassName="headerState">
-                <a className="scaleLinks">会でやること</a>
+                <a className="scaleLinks">会でやること詳細</a>
               </ActiveLink>
             </li>
             <li>

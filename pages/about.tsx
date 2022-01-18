@@ -9,7 +9,7 @@ const Location: React.FC = () => {
         <meta name="description" content="リンク" />
       </Head>
       <main className="margin inblo">
-        <h1>開催場所</h1>
+        <h1>開催予定場所</h1>
         <div className="triangle-bottom" />
         <dl>
           <h2>東京(Tokyo)</h2>
@@ -26,6 +26,7 @@ const Location: React.FC = () => {
           <p>詳細の所在地 : 〒182-0005 東京都 調布市東つつじヶ丘2-27-1</p>
           <p>駅より徒歩7分</p>
           <p>普段はカフェとして営業中です。美味しいのでぜひ足をお運びください。</p>
+          <p>詳細の開催日時は〇〇日〇〇曜日です。詳しくはちょうふこやどTwitterをご覧ください。</p>
         </dl>
       </main>
     </motion.div>

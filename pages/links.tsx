@@ -28,13 +28,13 @@ const Links: React.FC = () => {
             </a>
           </dd>
           <dd>
-            <a className="green scaleLinks" href="https://ikizura-wh.jimdofree.com" target="_blank">
-              生きづらわーほりプロジェクト
+            <a className="tyairo scaleLinks" href="https://www.yamabousi.org/" target="_blank">
+              認定NPO法人やまぼうし
             </a>
           </dd>
-          {/* <dd>
-            <a className="scaleLinks" href="/" target="_blank">
-              <strike>引きこもり家族会やまぼうし</strike>
+          <dd>
+            <a className="green scaleLinks" href="https://ikizura-wh.jimdofree.com" target="_blank">
+              生きづらわーほりプロジェクト
             </a>
           </dd>
           <dd>
@@ -46,7 +46,7 @@ const Links: React.FC = () => {
             <a className="scaleLinks" href="/" target="_blank">
               <strike>ゆ〜るlinks</strike>
             </a>
-          </dd> */}
+          </dd>
         </dl>
       </main>
     </motion.div>
