@@ -38,13 +38,13 @@ const Links: React.FC = () => {
             </a>
           </dd>
           <dd>
-            <a className="scaleLinks" href="/" target="_blank">
-              <strike>UX女子会</strike>
+            <a className="scaleLinks" target="_blank">
+              <u>UX女子会</u>
             </a>
           </dd>
           <dd>
-            <a className="scaleLinks" href="/" target="_blank">
-              <strike>ゆ〜るlinks</strike>
+            <a className="scaleLinks" target="_blank">
+              <u>ゆ〜るlinks</u>
             </a>
           </dd>
         </dl>
