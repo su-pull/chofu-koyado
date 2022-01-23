@@ -7,6 +7,10 @@ html {
   overflow: scroll;
 }
 body {
+  background-image: url(../public/image/image00.png);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
   font: {
     family: $Google;
     weight: normal;
@@ -14,9 +18,9 @@ body {
   }
   word-break: break-all;
   text-align: center;
-  background: rgb(255, 240, 230);
+  // background: rgb(255, 240, 230);
   color: $ST;
-  width: 600px;
+
   @include LRauto;
 }
 
@@ -49,7 +53,6 @@ button {
   left: 0;
   width: 25%;
   height: 100vh;
-  background: #fff;
   border-right: solid 1px #eaeaea;
 }
 
@@ -61,7 +64,6 @@ button {
   right: 0;
   width: 25%;
   height: 100vh;
-  background: #fff;
   border-left: solid 1px #eaeaea;
 }
 
@@ -178,28 +180,31 @@ textarea {
 }
 
 .green {
-  color: #008537;
+  color: #26cf6c;
 }
 
 .migiue {
   z-index: 1;
   position: relative;
-  right: 0px;
   font: {
     size: 50px;
     weight: bold;
     family: $Google0;
   }
+  width: 50%;
   white-space: nowrap;
-  background: #eeae8c;
   border: 2px solid;
   border-radius: 5px;
   padding-bottom: 15px;
   padding-top: 10px;
   padding-left: 20px;
   padding-right: 20px;
-  width: 80%;
+
   text-align: center;
+  color: #ff8c00;
+  background: -webkit-linear-gradient(0deg, #00ffe5, #ff8c00, #00d9ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .migiue:hover {
