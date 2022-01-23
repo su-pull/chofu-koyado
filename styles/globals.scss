@@ -3,14 +3,14 @@
 @import "./PT/scrollbar";
 
 html {
-  -webkit-text-size-adjust: $r100;
-  overflow: scroll;
-}
-body {
   background-image: url(../public/image/image00.png);
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-text-size-adjust: $r100;
+  overflow: scroll;
+}
+body {
   font: {
     family: $Google;
     weight: normal;
@@ -147,7 +147,7 @@ h5 {
 .footerFix {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 80vh;
 }
 
 footer {

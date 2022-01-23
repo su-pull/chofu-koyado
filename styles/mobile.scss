@@ -2,6 +2,11 @@
 
 @media screen and (max-width: 1400px) {
   html {
+    background-image: url(../public/image/image02.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
     height: 100%;
   }
   body {
