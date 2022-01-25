@@ -28,8 +28,8 @@ const Links: React.FC = () => {
             </a>
           </dd>
           <dd>
-            <a className="tyairo scaleLinks" href="https://www.yamabousi.org/" target="_blank">
-              認定NPO法人やまぼうし
+            <a className="tyairo scaleLinks" target="_blank">
+              <u>家族会やまぼうし</u>
             </a>
           </dd>
           <dd>
