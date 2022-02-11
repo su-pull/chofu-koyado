@@ -10,6 +10,15 @@
   display: block;
 }
 
+.dateST {
+  color: $ST;
+  font-size: 20px;
+}
+
+.PPx {
+  font-size: 20px;
+}
+
 .Iti {
   @include CenString;
   position: fixed;
@@ -31,6 +40,10 @@
 
 .margin {
   margin-top: 150px;
+}
+
+.margin50p {
+  margin-top: $p50;
 }
 
 .inblo {

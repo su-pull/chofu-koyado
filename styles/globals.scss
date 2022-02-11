@@ -75,11 +75,6 @@ li {
   margin: 20px;
 }
 
-.menu li {
-  margin-top: 60px;
-  list-style-type: none;
-}
-
 .nav1 {
   position: relative;
   font: {
@@ -88,6 +83,18 @@ li {
   text-align: center;
   white-space: nowrap;
   margin-top: 100px;
+}
+
+.nav2 {
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.menu li {
+  list-style-type: none;
 }
 
 .MenuList {

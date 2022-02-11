@@ -33,6 +33,11 @@ const Menu: React.FC<BoolProps> = ({ open, setOpen }) => {
                 </ActiveLink>
               </li>
               <li>
+                <ActiveLink href="/blog" activeClassName="headerState">
+                  <a>ブログ</a>
+                </ActiveLink>
+              </li>
+              <li>
                 <ActiveLink href="/contact" activeClassName="headerState">
                   <a>お問い合わせ</a>
                 </ActiveLink>
