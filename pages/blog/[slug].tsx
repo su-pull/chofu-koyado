@@ -40,7 +40,7 @@ const Slug: React.FC<Content> = ({ blog }) => {
         <title>{blog.fields.title} - sou</title>
         <meta name="description" content={blog.fields.description} />
       </Head>
-      <main className="Hlink list resizeimage margin inblo ">
+      <main className="Hlink list textLeft resizeimage margin inblo ">
         <div className={styles.Time2}>
           <Date dateString={blog.fields.date} />
         </div>
