@@ -9,22 +9,22 @@ const SideberLeft: React.FC = () => {
           <ul className="nav1">
             <li>
               <ActiveLink href="/contact" activeClassName="headerState">
-                <a className="scaleLinks">お問い合わせ</a>
+                <a className="scaleLinks">Contact</a>
               </ActiveLink>
             </li>
             <li>
-              <ActiveLink href="/user-policy" activeClassName="headerState">
-                <a className="scaleLinks">Twitter</a>
-              </ActiveLink>
-            </li>
-            <li>
-              <ActiveLink href="/user-policy" activeClassName="headerState">
-                <a className="scaleLinks">Facebook</a>
+              <ActiveLink href="/blog" activeClassName="headerState">
+                <a className="scaleLinks">Blog</a>
               </ActiveLink>
             </li>
             <li>
               <ActiveLink href="/picture" activeClassName="headerState">
                 <a className="scaleLinks">Picture</a>
+              </ActiveLink>
+            </li>
+            <li>
+              <ActiveLink href="/links" activeClassName="headerState">
+                <a className="scaleLinks">Link</a>
               </ActiveLink>
             </li>
           </ul>
