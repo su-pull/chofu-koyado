@@ -7,7 +7,7 @@ export const Contact: React.FC<HTMLTextAreaElement> = () => {
   return (
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 0.25 }}>
       <Head>
-        <title>お問い合わせ - 調布のこやど</title>
+        <title>コンタクト - こやど</title>
         <meta name="description" content="コンタクト" />
       </Head>
       <main className="margin inblo">
