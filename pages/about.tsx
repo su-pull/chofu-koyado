@@ -7,7 +7,7 @@ const Location: React.FC = () => {
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 0.25 }}>
       <Head>
         <title>開催予定場所 - こやど</title>
-        <meta name="description" content="リンク" />
+        <meta name="description" content="開催場所と詳細など" />
       </Head>
       <main className="margin inblo">
         <h1>開催予定場所</h1>

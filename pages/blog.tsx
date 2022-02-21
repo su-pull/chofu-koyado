@@ -18,7 +18,7 @@ const Blog: React.FC<Map> = ({ blog }) => {
     <Framerdiv>
       <Head>
         <title>ブログ - こやど</title>
-        <meta name="description" content="ログ" />
+        <meta name="description" content="ブログ記事一覧ページです。" />
       </Head>
       <main className="textLeft margin inblo">
         <h1>開催後の感想などをアップしています。</h1>

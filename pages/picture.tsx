@@ -7,7 +7,7 @@ const NotFound: React.FC = () => {
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 0.25 }}>
       <Head>
         <title>ピクチャー - こやど</title>
-        <meta name="description" content="存在しないページ" />
+        <meta name="description" content="ピクチャーのページです写真を載せています。" />
       </Head>
       <main className="margin resizeimage">
         <h1>Picture</h1>

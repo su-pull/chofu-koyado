@@ -7,7 +7,7 @@ const Links: React.FC = () => {
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 0.25 }}>
       <Head>
         <title>リンク - こやど</title>
-        <meta name="description" content="リンク" />
+        <meta name="description" content="リンクしています。" />
       </Head>
       <main className="margin inblo link">
         <h1>リンク</h1>

@@ -6,7 +6,7 @@ const Index: React.FC = () => {
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 0.25 }}>
       <Head>
         <title>トップ - こやど</title>
-        <meta name="description" content="トップ" />
+        <meta name="description" content="トップページです。" />
       </Head>
       <main className="margin inblo">
         <h1>こやどの会トップ</h1>
