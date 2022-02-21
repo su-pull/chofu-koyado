@@ -22,11 +22,11 @@ const SideberLeft: React.FC = () => {
                 <a className="scaleLinks">Facebook</a>
               </ActiveLink>
             </li>
-            {/* <li>
-              <ActiveLink href="/user-policy" activeClassName="headerState">
-                <a className="scaleLinks">Instagram</a>
+            <li>
+              <ActiveLink href="/picture" activeClassName="headerState">
+                <a className="scaleLinks">Picture</a>
               </ActiveLink>
-            </li> */}
+            </li>
           </ul>
         </nav>
       </header>
