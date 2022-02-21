@@ -16,11 +16,11 @@ const Location: React.FC = () => {
           <h2>東京(Tokyo)</h2>
           <br />
           <h2>
-            <a href="https://www.tokyo-satsuki.jp/" className="satsuki" target="_blank">
+            <a href="https://www.tokyo-satsuki.jp/" className="satsuki scaleLinks" target="_blank">
               さつきホスピタル病院
             </a>
             <div className="Kaiten inblo">前</div>. . .
-            <a href="https://soradai.kenseikai-group.or.jp/" className="blue" target="_blank">
+            <a href="https://soradai.kenseikai-group.or.jp/" className="blue scaleLinks" target="_blank">
               空と大地と(カフェ)
             </a>{" "}
           </h2>
@@ -30,7 +30,7 @@ const Location: React.FC = () => {
           <p>
             「{" "}
             <Link href="/blog">
-              <a className="blue">ブログ一覧で最新を見る</a>
+              <a className="blue scaleLinks">ブログ一覧で最新を見る</a>
             </Link>{" "}
             」を参照してください。
           </p>
