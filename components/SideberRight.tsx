@@ -13,13 +13,13 @@ const SideberLeft: React.FC = () => {
               </ActiveLink>
             </li>
             <li>
-              <ActiveLink href="/blog" activeClassName="headerState">
-                <a className="scaleLinks">Blog</a>
+              <ActiveLink href="/picture" activeClassName="headerState">
+                <a className="scaleLinks">Picture</a>
               </ActiveLink>
             </li>
             <li>
-              <ActiveLink href="/picture" activeClassName="headerState">
-                <a className="scaleLinks">Picture</a>
+              <ActiveLink href="/blog" activeClassName="headerState">
+                <a className="scaleLinks">Blog</a>
               </ActiveLink>
             </li>
             <li>
