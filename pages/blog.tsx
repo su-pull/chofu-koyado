@@ -20,7 +20,7 @@ const Blog: React.FC<Map> = ({ blog }) => {
         <title>koyado</title>
         <meta name="description" content="ログ" />
       </Head>
-      <main className="textLeft margin50p inblo">
+      <main className="textLeft margin inblo">
         <h1>開催後の感想などをアップしています。</h1>
         {blog.map((props: Entry<IPostFields>) => (
           <div className="hoverbob">
