@@ -5,9 +5,7 @@ const Footer: React.FC = () => {
     <div>
       <footer>
         <Link href="/">
-          <a className="scale">
-            <div className="inblo C">Copyright2022 © ちょうふのこやど All rights reserved.</div>
-          </a>
+          <a className="blue C">Copyright2022 © ちょうふのこやど All rights reserved.</a>
         </Link>
       </footer>
     </div>

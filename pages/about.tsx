@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import Head from "next/head";
+import Link from "next/link";
 
 const Location: React.FC = () => {
   return (
@@ -26,7 +27,13 @@ const Location: React.FC = () => {
           <p>詳細の所在地 : 〒182-0005 東京都 調布市東つつじヶ丘2-27-1</p>
           <p>駅より徒歩7分</p>
           <p>普段はカフェとして営業中です。美味しいのでぜひ足をお運びください。</p>
-          <p>詳細の開催日時は2022年2月12日です。。詳しくはちょうふこやどTwitterをご覧ください。</p>
+          <p>
+            「{" "}
+            <Link href="/blog">
+              <a className="blue">ブログ一覧で最新を見る</a>
+            </Link>{" "}
+            」を参照してください。
+          </p>
         </dl>
       </main>
     </motion.div>

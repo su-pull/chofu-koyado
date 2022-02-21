@@ -25,14 +25,6 @@ body {
   @include LRauto;
 }
 
-pre {
-  white-space: pre-wrap;
-}
-
-code {
-  font-size: 12px;
-}
-
 .resizeimage img {
   width: 100%;
   transform: scale(0.95);
@@ -110,8 +102,11 @@ dd {
 }
 
 a {
-  color: $ST;
   text-decoration: none;
+}
+
+.nav1 a {
+  color: $ST;
 }
 
 .scaleLinks:hover {

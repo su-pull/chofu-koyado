@@ -5,7 +5,7 @@ const About: React.FC = () => {
   return (
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 0.25 }}>
       <Head>
-        <title>会でやること - 調布のこやど</title>
+        <title>会でやること - こやど</title>
         <meta name="description" content="私について" />
       </Head>
       <main className="margin inblo textLeft">
