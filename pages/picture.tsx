@@ -1,10 +1,10 @@
-import { motion } from "framer-motion";
+import Framerdiv from "../components/Sys/Framer";
 import Head from "next/head";
 import Link from "next/link";
 
 const NotFound: React.FC = () => {
   return (
-    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 0.25 }}>
+    <Framerdiv>
       <Head>
         <title>ピクチャー - こやど</title>
         <meta name="description" content="ピクチャーのページです写真を載せています。" />
@@ -16,7 +16,7 @@ const NotFound: React.FC = () => {
         <img src="/picture/ios3.jpg" />
         <img src="/picture/ios4.jpg" />
       </main>
-    </motion.div>
+    </Framerdiv>
   );
 };
 
