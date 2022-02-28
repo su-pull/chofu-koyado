@@ -1,11 +1,11 @@
 import { useMail } from ".././hooks/useMail";
-import { motion } from "framer-motion";
+import Framerdiv from "../components/Sys/Framer";
 import Head from "next/head";
 
 export const Contact: React.FC<HTMLTextAreaElement> = () => {
   const { setName, setMail, setMessage, send } = useMail();
   return (
-    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 0.25 }}>
+    <Framerdiv>
       <Head>
         <title>コンタクト - こやど</title>
         <meta name="description" content="コンタクト、お問い合わせはこちらから。" />
@@ -43,7 +43,7 @@ export const Contact: React.FC<HTMLTextAreaElement> = () => {
           </dl>
         </form>
       </main>
-    </motion.div>
+    </Framerdiv>
   );
 };
 
