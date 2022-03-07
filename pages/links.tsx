@@ -1,5 +1,4 @@
 import Framerdiv from "../components/Sys/Framer";
-import ActiveLink from "../components/Sys/ActiveLink";
 import Head from "next/head";
 
 const Links: React.FC = () => {
