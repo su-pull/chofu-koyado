@@ -11,7 +11,7 @@ const Links: React.FC = () => {
       <main className="margin inblo link">
         <h1>リンク</h1>
         <div className="triangle-bottom" />
-        <ul>
+        {/* <ul>
           <li>
             <a href="https://soradai.kenseikai-group.or.jp/" className="blue scaleLinks" target="_blank">
               空と大地と
@@ -58,7 +58,7 @@ const Links: React.FC = () => {
           <a className="scaleLinks">
             <u>Facebook</u>
           </a>
-        </li>
+        </li> */}
       </main>
     </Framerdiv>
   );
