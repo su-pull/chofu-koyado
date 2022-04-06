@@ -32,14 +32,14 @@ const Index: React.FC = () => {
             </li>
           </ul>
         </nav>
-        <div className="mt-48">
+        <p className="mt-48">
           <h1 className="text-4xl">ちょうふのこやど</h1>
           <h1 id="about">ちょうふのこやどとは？</h1>
-          <div className="triangle-bottom" />
-          <div>ひきこもりや生きづらさを抱えている当事者の方が集まりみんなでお話をする会です。</div>
-          <div>当事者のみなさんがほっとできる場を作っています。</div>
+          <p className="triangle-bottom" />
+          <p>ひきこもりや生きづらさを抱えている当事者の方が集まりみんなでお話をする会です。</p>
+          <p>当事者のみなさんがほっとできる場を作っています。</p>
           <br />
-          <div>「調布市社会福祉協議会」と「家族会やまぼうし」と3団体協働で開催しています。</div>
+          <p>「調布市社会福祉協議会」と「家族会やまぼうし」と3団体協働で開催しています。</p>
           <br />
           <h1>開催場所</h1>
           <dl>
@@ -65,17 +65,17 @@ const Index: React.FC = () => {
               」を参照してください。
             </p>
           </dl>
-        </div>
+        </p>
 
-        <div className="mb-80 mt-48">
+        <p className="mb-80 mt-48">
           <h1 className="text-4xl">ちょうふのこやど女子会</h1>
           <h1 id="women">ちょうふのこやどとは？</h1>
           <div className="triangle-bottom" />
-          <div>ひきこもりや生きづらさを抱えている当事者の方が集まりみんなでお話をする会です。</div>
-          <div>当事者のみなさんがほっとできる場を作っています。</div>
+          <p>ひきこもりや生きづらさを抱えている当事者の方が集まりみんなでお話をする会です。</p>
+          <p>当事者のみなさんがほっとできる場を作っています。</p>
           <br className="mb-14" />
           <br />
-          <div>「調布市社会福祉協議会」と「家族会やまぼうし」と3団体協働で開催しています。</div>
+          <p>「調布市社会福祉協議会」と「家族会やまぼうし」と3団体協働で開催しています。</p>
           <br />
 
           <h1>開催場所</h1>
@@ -102,9 +102,9 @@ const Index: React.FC = () => {
               」を参照してください。
             </p>
           </dl>
-        </div>
+        </p>
 
-        <div className="mb-80">
+        <p className="mb-80">
           <h1 id="rule">会でやること〜進め方について〜</h1>
           <ul>
             <p>① 簡単な自己紹介と近況を順番にみんなで一周します。</p>
@@ -123,7 +123,7 @@ const Index: React.FC = () => {
               <u>宗教並びにネットワークビジネスの勧誘の方の</u>ご参加は遠慮させていただいております。
             </li>
           </ul>
-        </div>
+        </p>
         <br />
 
         <form className="textCenter mb-40">
