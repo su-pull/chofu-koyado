@@ -18,11 +18,6 @@ const SideberLeft: React.FC = () => {
               </ActiveLink>
             </li>
             <li>
-              <ActiveLink href="/blog" activeClassName="headerState">
-                <a className="scaleLinks">イベント</a>
-              </ActiveLink>
-            </li>
-            <li>
               <ActiveLink href="/links" activeClassName="headerState">
                 <a className="scaleLinks">共同ぐるーぷ</a>
               </ActiveLink>
