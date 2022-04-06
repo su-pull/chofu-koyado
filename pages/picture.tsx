@@ -9,7 +9,7 @@ const NotFound: React.FC = () => {
         <title>ピクチャー - こやど</title>
         <meta name="description" content="ピクチャーのページです写真を載せています。" />
       </Head>
-      <main className="margin resizeimage">
+      <main className="resizeimage">
         <h1>Picture</h1>
         <div className="triangle-bottom" />
         <img src="/picture/ios2.jpg" />

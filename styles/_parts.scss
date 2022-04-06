@@ -2,6 +2,10 @@
   text-align: left;
 }
 
+.textCenter {
+  text-align: center;
+}
+
 .CN {
   @include CenString;
 }
@@ -105,4 +109,31 @@
 
 .pinkLinks {
   color: $FB;
+}
+
+.gotop {
+  z-index: 3;
+  position: fixed;
+  bottom: 50px;
+  right: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #999;
+  background: rgb(150, 227, 255);
+  color: #333;
+  border-radius: 50%;
+}
+.gotop::before {
+  content: "";
+  top: 24px;
+  border-top: 4px solid white;
+  border-right: 4px solid white;
+  width: 25%;
+  height: 25%;
+  margin: auto;
+  position: absolute;
+  transform: rotate(-45deg);
 }

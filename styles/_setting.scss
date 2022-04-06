@@ -36,7 +36,7 @@ $ME: rgba(0, 0, 0, 0.75);
 
 @mixin H1H2 {
   font-size: $p20;
-  border-bottom: 5px solid #fff;
+  // border-bottom: 5px solid #eaeaea;
   @include LRauto;
 }
 

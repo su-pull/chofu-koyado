@@ -4,27 +4,27 @@ import React from "react";
 const SideberLeft: React.FC = () => {
   return (
     <div>
-      <header className="SideColumn-right menu">
+      <header className="menu">
         <nav>
           <ul className="nav1">
             <li>
-              <ActiveLink href="/contact" activeClassName="headerState">
-                <a className="scaleLinks">Contact</a>
+              <ActiveLink href="/" activeClassName="headerState">
+                <a className="scaleLinks">トップ</a>
               </ActiveLink>
             </li>
             <li>
               <ActiveLink href="/picture" activeClassName="headerState">
-                <a className="scaleLinks">Picture</a>
+                <a className="scaleLinks">ピクチャー</a>
               </ActiveLink>
             </li>
             <li>
               <ActiveLink href="/blog" activeClassName="headerState">
-                <a className="scaleLinks">Blog</a>
+                <a className="scaleLinks">イベント</a>
               </ActiveLink>
             </li>
             <li>
               <ActiveLink href="/links" activeClassName="headerState">
-                <a className="scaleLinks">Link</a>
+                <a className="scaleLinks">共同ぐるーぷ</a>
               </ActiveLink>
             </li>
           </ul>

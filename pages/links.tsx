@@ -9,7 +9,7 @@ const Links: React.FC = () => {
         <meta name="description" content="リンクしています。" />
       </Head>
       <main className="margin inblo link">
-        <h1>リンク</h1>
+        <h1>共同ぐるーぷ</h1>
         <div className="triangle-bottom" />
         {/* <ul>
           <li>

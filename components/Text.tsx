@@ -3,9 +3,9 @@ import ActiveLink from "./Sys/ActiveLink";
 const Text: React.FC = () => {
   return (
     <div>
-      <div className="migiue inblo">
+      <div className="topText inblo">
         <ActiveLink href="/" activeClassName="">
-          <a className="white">ちょうふのこやど</a>
+          <a id="top">ちょうふのこやど</a>
         </ActiveLink>
       </div>
     </div>
