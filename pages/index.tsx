@@ -9,43 +9,42 @@ const Index: React.FC = () => {
   return (
     <Framerdiv>
       <Head>
-        <title>トップ - こやど</title>
-        <meta name="description" content="トップページです。" />
+        <title>ちょうふのこやど</title>
+        <meta name="description" content="いきずらさを感じる若者のための交流会です。" />
       </Head>
       <main className="hLink textLeft margin inblo">
         <nav className="Yohaku">
           <ul className="List">
             <li>
-              <Scroll to="about" smooth={true} offset={-200}>
+              <Scroll to="about" smooth={true} offset={-20} duration={500}>
                 <a className="scaleLinks">Content</a>
               </Scroll>
             </li>
             <li>
-              <Scroll to="rule" smooth={true} offset={-150}>
-                <a className="scaleLinks">会でやること詳細</a>
+              <Scroll to="rule" smooth={true} offset={-20} duration={500}>
+                <a className="scaleLinks">About</a>
               </Scroll>
             </li>
             <li>
-              <Scroll to="contact" smooth={true} offset={-150}>
-                <a className="scaleLinks">コンタクト</a>
+              <Scroll to="contact" smooth={true} offset={-20} duration={500}>
+                <a className="scaleLinks">Contact</a>
               </Scroll>
             </li>
           </ul>
         </nav>
-        <div className="mt-48">
-          <h1 className="text-4xl">ちょうふのこやど</h1>
-          <h1 id="about">ちょうふのこやどとは？</h1>
-          <p className="triangle-bottom" />
+        <div className="mb-80 mt-48">
+          <h1 className="text-4xl" id="about">
+            ちょうふのこやどは
+          </h1>
           <p>ひきこもりや生きづらさを抱えている当事者の方が集まりみんなでお話をする会です。</p>
           <p>当事者のみなさんがほっとできる場を作っています。</p>
           <br />
           <p>「調布市社会福祉協議会」と「家族会やまぼうし」と3団体協働で開催しています。</p>
           <br />
-          <h1>開催場所</h1>
+          <h1 className="text-2xl">開催場所</h1>
           <dl>
-            <h2>東京都調布市</h2>
-            <br />
             <h2>
+              東京都調布市
               <a href="https://www.tokyo-satsuki.jp/" className="satsuki scaleLinks" target="_blank">
                 さつきホスピタル病院
               </a>
@@ -67,7 +66,7 @@ const Index: React.FC = () => {
           </dl>
         </div>
 
-        <div className="mb-80 mt-48">
+        {/* <div className="mb-80 mt-48">
           <h1 className="text-4xl">ちょうふのこやど女子会</h1>
           <h1 id="women">ちょうふのこやどとは？</h1>
           <div className="triangle-bottom" />
@@ -102,7 +101,7 @@ const Index: React.FC = () => {
               」を参照してください。
             </p>
           </dl>
-        </div>
+        </div> */}
 
         <div className="mb-80">
           <h1 id="rule">会でやること〜進め方について〜</h1>

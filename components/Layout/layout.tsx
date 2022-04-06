@@ -17,10 +17,10 @@ const Layout: React.FC<Props> = ({ children }) => {
     <>
       <MenuButton open={open} setOpen={setOpen} />
       <Menu open={open} setOpen={setOpen} />
-
+      <Header />
       <Text />
       <div className="footerFix">{children}</div>
-
+      <Top />
       <Footer />
     </>
   );

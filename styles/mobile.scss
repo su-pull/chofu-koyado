@@ -18,35 +18,42 @@
     padding: 18px;
   }
 
+  .menu {
+    display: none;
+  }
+
   .margin {
     margin-top: $p50;
   }
 
+  .gotop {
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+  }
+
   .Humb {
-    z-index: 100;
-    border: none;
-    background: rgb(255, 160, 160);
-    border-radius: 50%;
-    padding-top: 46px;
-    padding-bottom: 20px;
-    padding-left: 23px;
-    padding-right: 23px;
+    border: solid 1px gray;
+    border-radius: 10%;
+    padding-top: 36px;
+    padding-bottom: 10px;
+    padding-left: 14px;
+    padding-right: 14px;
   }
 
   .Line {
-    z-index: 100;
+    z-index: 3;
+    position: absolute;
     display: inline-block;
-    z-index: 5;
-    position: fixed;
-    right: 20px;
-    bottom: 15px;
+    right: 15px;
+    top: 15px;
   }
   .Line span {
     display: block;
     position: relative;
     height: 4px;
     width: 28px;
-    background-color: #fff;
+    background-color: black;
     border-radius: 4px;
   }
 
@@ -84,8 +91,7 @@
   .MenuList [aria-expanded="false"] {
     @include Menu;
     opacity: 0;
-    visibility: unset;
-    transform: translate(100%);
+    visibility: hidden;
   }
 
   .disableN {
