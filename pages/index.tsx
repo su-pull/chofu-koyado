@@ -32,7 +32,7 @@ const Index: React.FC = () => {
             </li>
           </ul>
         </nav>
-        <p className="mt-48">
+        <div className="mt-48">
           <h1 className="text-4xl">ちょうふのこやど</h1>
           <h1 id="about">ちょうふのこやどとは？</h1>
           <p className="triangle-bottom" />
@@ -65,9 +65,9 @@ const Index: React.FC = () => {
               」を参照してください。
             </p>
           </dl>
-        </p>
+        </div>
 
-        <p className="mb-80 mt-48">
+        <div className="mb-80 mt-48">
           <h1 className="text-4xl">ちょうふのこやど女子会</h1>
           <h1 id="women">ちょうふのこやどとは？</h1>
           <div className="triangle-bottom" />
@@ -102,9 +102,9 @@ const Index: React.FC = () => {
               」を参照してください。
             </p>
           </dl>
-        </p>
+        </div>
 
-        <p className="mb-80">
+        <div className="mb-80">
           <h1 id="rule">会でやること〜進め方について〜</h1>
           <ul>
             <p>① 簡単な自己紹介と近況を順番にみんなで一周します。</p>
@@ -123,7 +123,7 @@ const Index: React.FC = () => {
               <u>宗教並びにネットワークビジネスの勧誘の方の</u>ご参加は遠慮させていただいております。
             </li>
           </ul>
-        </p>
+        </div>
         <br />
 
         <form className="textCenter mb-40">
