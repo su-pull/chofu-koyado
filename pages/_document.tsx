@@ -8,8 +8,7 @@ class MyDocument extends Document {
       <Html lang="JA">
         <Head>
           <link href="/azur.ico" rel="icon" />
-          <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200&display=swap" rel="stylesheet" />
-          <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap" rel="stylesheet" />
+          <link href="https://fonts.googleapis.com/css2?family=Yomogi&display=swap" rel="stylesheet" />
           {GA_TRACKING_ID && (
             <>
               <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`} />

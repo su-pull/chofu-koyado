@@ -1,4 +1,4 @@
-$p0: 0px;
+$p0: 0;
 $p5: 5px;
 $p10: $p5 * 2;
 $p14: $p10 * 1.4;
@@ -10,24 +10,23 @@ $p60: $p20 * 3;
 $p80: $p20 * 4;
 $p100: $p50 * 2;
 $p200: $p50 * 4;
-
 $r0: 0%;
 $r25: 25%;
 $r50: $r25 * 2;
 $r100: $r50 * 2;
-
 $Google0: "Hachi Maru Pop";
-$Google: "Noto Serif JP", serif;
+$Google: "Yomogi";
+
+// "Noto Serif JP", serif;
 
 $IB: inline-block;
 $NO: none;
-
 $BG: #fff;
 $ST: #666;
-$FB: #ffaaaa;
+$FB: #faa;
 $FE: #ffefef;
 $YE: #f8f0df;
-$ME: rgba(0, 0, 0, 0.75);
+$ME: rgb(0 0 0 / 75%);
 
 @mixin LRauto {
   margin-right: auto;
@@ -36,6 +35,7 @@ $ME: rgba(0, 0, 0, 0.75);
 
 @mixin H1H2 {
   font-size: $p20;
+
   // border-bottom: 5px solid #eaeaea;
   @include LRauto;
 }
@@ -46,7 +46,7 @@ $ME: rgba(0, 0, 0, 0.75);
 }
 
 @mixin H5 {
-  background: rgb(61, 81, 107);
+  background: rgb(61 81 107);
   color: $ST;
   display: $IB;
   padding-bottom: 4px;
