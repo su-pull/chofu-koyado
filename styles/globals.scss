@@ -213,12 +213,16 @@ input {
   @include Input;
   @include LRauto;
   @include BBMyellow;
+
+  border: solid 1px #eaeaea;
 }
 
 textarea {
   @include Textarea;
   @include LRauto;
   @include BBMyellow;
+
+  border: solid 1px #eaeaea;
 }
 
 #massageButton {
