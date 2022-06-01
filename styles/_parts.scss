@@ -25,6 +25,7 @@
 
 .Iti {
   @include CenString;
+
   position: fixed;
   opacity: 1;
 }
@@ -34,7 +35,7 @@
 }
 
 .satsuki {
-  color: #ffaaaa;
+  color: #faa;
 }
 
 .Kaiten:hover {
@@ -55,6 +56,7 @@
   font: {
     family: $Google0;
   }
+
   transform: skew(-20deg);
 }
 
@@ -72,11 +74,12 @@
   justify-content: center;
   align-items: center;
   background: white;
-  color: rgb(100, 100, 100);
+  color: rgb(100 100 100);
   font: {
     size: 12px;
     weight: bold;
   }
+
   height: 25px;
   width: 25px;
   border: solid 1px;
@@ -126,6 +129,7 @@
   color: #333;
   border-radius: 50%;
 }
+
 .gotop::before {
   content: "";
   top: 24px;
@@ -136,4 +140,10 @@
   margin: auto;
   position: absolute;
   transform: rotate(-45deg);
+}
+
+.Locale {
+  width: 100%;
+  height: 500px;
+  border: none;
 }
