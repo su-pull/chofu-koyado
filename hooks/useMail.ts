@@ -1,13 +1,13 @@
-import { useState } from 'react';
+import { useState } from "react";
 
 export const useMail = () => {
-  const [name, setName] = useState('');
-  const [mail, setMail] = useState('');
-  const [message, setMessage] = useState('');
+  const [name, setName] = useState("");
+  const [mail, setMail] = useState("");
+  const [message, setMessage] = useState("");
 
-  const send = async () => {
-    await fetch('/api/mail', {
-      method: 'POST',
+  const Submit = async () => {
+    await fetch("/api/mail", {
+      method: "POST",
       body: `
 名前
 ${name}
@@ -22,6 +22,10 @@ ${message}
   };
 
   return {
-    setName, setMail, setMessage, send,
+    mail,
+    setName,
+    setMail,
+    setMessage,
+    Submit,
   };
 };

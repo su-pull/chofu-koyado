@@ -147,3 +147,20 @@
   height: 500px;
   border: none;
 }
+
+.massageButton {
+  position: relative;
+  left: 0%;
+  right: 0%;
+  margin: auto;
+  border: solid 2px;
+  padding: 15px;
+  width: $p50 * 2.5;
+  height: $p20 * 1;
+  cursor: pointer;
+  border-radius: 10px;
+  font: {
+    size: 16px;
+    weight: bold;
+  }
+}

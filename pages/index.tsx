@@ -3,9 +3,28 @@ import Head from "next/head";
 import { Link as Scroll } from "react-scroll";
 import Link from "next/link";
 import { useMail } from ".././hooks/useMail";
+import { useState } from "react";
 
 const Index: React.FC = () => {
-  const { setName, setMail, setMessage, send } = useMail();
+  const { mail, setName, setMail, setMessage, Submit } = useMail();
+  const [error, setError] = useState(true);
+  const Send = () => {
+    if (validateEmail(mail)) {
+      Submit();
+    } else error;
+  };
+
+  const validateEmail = (checkStr: string) => {
+    const regex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/i;
+    if (regex.test(checkStr)) {
+      setError(false);
+      return true;
+    } else {
+      setError(true);
+      return false;
+    }
+  };
+
   return (
     <Framerdiv>
       <Head>
@@ -106,11 +125,9 @@ const Index: React.FC = () => {
             <dd>
               <textarea name="massage" aria-label="Massage area" onChange={(e) => setMessage(e.target.value)} required />
             </dd>
-            <dd>
-              <button id="massageButton" type="submit" onClick={send}>
-                送る
-              </button>
-            </dd>
+            <div onClick={Send} className="massageButton">
+              {error ? <div>送る</div> : <div className="Spinner">送信完了！</div>}
+            </div>
           </dl>
         </form>
       </main>
