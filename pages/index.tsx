@@ -61,44 +61,6 @@ const Index: React.FC = () => {
             </p>
           </dl>
         </div>
-
-        {/* <div className="mb-80 mt-48">
-          <h1 className="text-4xl">ちょうふのこやど女子会</h1>
-          <h1 id="women">ちょうふのこやどとは？</h1>
-          <div className="triangle-bottom" />
-          <p>ひきこもりや生きづらさを抱えている当事者の方が集まりみんなでお話をする会です。</p>
-          <p>当事者のみなさんがほっとできる場を作っています。</p>
-          <br className="mb-14" />
-          <br />
-          <p>「調布市社会福祉協議会」と「家族会やまぼうし」と3団体協働で開催しています。</p>
-          <br />
-
-          <h1>開催場所</h1>
-          <dl>
-            <h2>東京都調布市</h2>
-            <br />
-            <h2>
-              <a href="https://www.tokyo-satsuki.jp/" className="satsuki scaleLinks" target="_blank">
-                さつきホスピタル病院
-              </a>
-              <div className="Kaiten inblo">前</div>. . .
-              <a href="https://soradai.kenseikai-group.or.jp/" className="blue scaleLinks" target="_blank">
-                空と大地と(カフェ)
-              </a>{" "}
-            </h2>
-            <p>詳細の所在地 : 〒182-0005 東京都 調布市東つつじヶ丘2-27-1</p>
-            <p>駅より徒歩7分</p>
-            <p>普段はカフェとして営業中です。美味しいのでぜひ足をお運びください。</p>
-            <p>
-              「{" "}
-              <Link href="/blog">
-                <a className="blue scaleLinks">ブログ一覧で最新を見る</a>
-              </Link>{" "}
-              」を参照してください。
-            </p>
-          </dl>
-        </div> */}
-
         <div className="mb-80">
           <h1 id="rule">会でやること〜進め方について〜</h1>
           <ul>
