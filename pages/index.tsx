@@ -1,7 +1,6 @@
 import Framerdiv from "../components/Sys/Framer";
 import Head from "next/head";
 import { Link as Scroll } from "react-scroll";
-import Link from "next/link";
 import { useMail } from ".././hooks/useMail";
 import { useState } from "react";
 
