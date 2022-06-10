@@ -22,7 +22,7 @@ const Menu: React.FC<BoolProps> = ({ open, setOpen }) => {
               </ActiveLink>
             </li>
             <li>
-              <ActiveLink href="/links" activeClassName="headerState">
+              <ActiveLink href="/group" activeClassName="headerState">
                 <a className="scale">共同ぐるーぷ</a>
               </ActiveLink>
             </li>
