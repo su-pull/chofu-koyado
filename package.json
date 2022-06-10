@@ -13,7 +13,6 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "@contentful/rich-text-react-renderer": "^15.11.1",
     "@types/gtag.js": "^0.0.8",
     "@types/nodemailer": "^6.4.4",
     "@types/react-scroll": "^1.8.3",
