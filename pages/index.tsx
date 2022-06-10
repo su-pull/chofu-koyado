@@ -4,7 +4,7 @@ import { Link as Scroll } from "react-scroll";
 import { useMail } from ".././hooks/useMail";
 import { useState } from "react";
 
-const Index: React.FC = () => {
+const Index: React.FC<HTMLTextAreaElement> = () => {
   const { mail, setName, setMail, setMessage, Submit } = useMail();
   const [error, setError] = useState(true);
   const Send = () => {

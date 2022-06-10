@@ -23,55 +23,6 @@ const Links: React.FC = () => {
         <p>「開催日時」: 毎月第2土曜日 ９：００～１２：００</p>
         <p>「開催場所」: 調布市こころの健康支援センター</p>
         <p>「問合せ先」: 調布市社会福祉協議会 地域福祉コーディネーター TEL: 042-481-7693</p>
-
-        {/* <ul>
-          <li>
-            <a href="https://soradai.kenseikai-group.or.jp/" className="blue scaleLinks" target="_blank">
-              空と大地と
-            </a>
-          </li>
-          <li>
-            <a href="https://www.tokyo-satsuki.jp/" className="satsuki scaleLinks" target="_blank">
-              さつきホスピタル病院
-            </a>
-          </li>
-          <li>
-            <a className="tyairo scaleLinks" href="https://www.ccsw.or.jp" target="_blank">
-              社会福祉協議会
-            </a>
-          </li>
-          <li>
-            <a className="tyairo scaleLinks" target="_blank">
-              <u>家族会やまぼうし</u>
-            </a>
-          </li>
-          <li>
-            <a className="green scaleLinks" href="https://ikizura-wh.jimdofree.com" target="_blank">
-              生きづらわーほりプロジェクト
-            </a>
-          </li>
-          <li>
-            <a className="scaleLinks" target="_blank">
-              <u>UX女子会</u>
-            </a>
-          </li>
-          <li>
-            <a className="scaleLinks" target="_blank">
-              <u>ゆ〜るlinks</u>
-            </a>
-          </li>
-        </ul>
-        <h1>ソーシャルネットワーク( 追加予定 )</h1>
-        <li>
-          <a className="scaleLinks">
-            <u>Twitter</u>
-          </a>
-        </li>
-        <li>
-          <a className="scaleLinks">
-            <u>Facebook</u>
-          </a>
-        </li> */}
       </main>
     </Framerdiv>
   );
