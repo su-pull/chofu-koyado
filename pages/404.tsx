@@ -12,11 +12,11 @@ const NotFound: React.FC = () => {
       <main className="CN">
         <h1>このページはありません。</h1>
         <div className="triangle-bottom" />
-        <dl>
+        <div>
           <Link href="/">
             <a className="redLinks scale">back トップに戻る</a>
           </Link>
-        </dl>
+        </div>
       </main>
     </motion.div>
   );
