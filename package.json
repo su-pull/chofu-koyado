@@ -28,7 +28,7 @@
     "prettier": "^2.6.2",
     "react": "18.1.0",
     "react-dom": "18.1.0",
-    "react-scroll": "^1.8.6",
+    "react-scroll": "^1.8.7",
     "sass": "^1.43.4",
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-recommended-scss": "^6.0.0",
