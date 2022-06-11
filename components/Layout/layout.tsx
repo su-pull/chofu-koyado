@@ -4,7 +4,7 @@ import MenuButton from "../MenuButton";
 import Menu from "../Menu";
 import Text from "../Text";
 import Footer from "../Footer";
-import Top from "components/Top";
+import Top from "../Top";
 
 type Props = {
   children: ReactNode;
