@@ -3,7 +3,7 @@ import { Link as Scroll } from "react-scroll";
 
 const Top = () => (
   <Scroll to="top" smooth={true} offset={0} duration={400}>
-    <a className="gotop"></a>
+    <a className="gotop" />
   </Scroll>
 );
 
