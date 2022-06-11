@@ -1,9 +1,9 @@
 import { AppProps } from "next/app";
 import { AnimatePresence } from "framer-motion";
-import "../styles/globals.scss";
-import "../styles/mobile.scss";
+import "styles/globals.scss";
+import "styles/mobile.scss";
 import Head from "next/head";
-import Layout from "../components/Layout/layout";
+import Layout from "components/Layout/layout";
 import { GA_TRACKING_ID, pageview } from "../libs/gtag";
 import { useEffect } from "react";
 

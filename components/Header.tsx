@@ -1,4 +1,4 @@
-import ActiveLink from "./Sys/ActiveLink";
+import ActiveLink from "components/Sys/ActiveLink";
 import React from "react";
 
 const SideberLeft: React.FC = () => {

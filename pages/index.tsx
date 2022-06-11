@@ -1,7 +1,7 @@
-import Framerdiv from "../components/Sys/Framer";
+import Framerdiv from "components/Sys/Framer";
 import Head from "next/head";
 import { Link as Scroll } from "react-scroll";
-import { useMail } from ".././hooks/useMail";
+import { useMail } from "hooks/useMail";
 import { useState } from "react";
 
 const Index: React.FC<HTMLTextAreaElement> = () => {

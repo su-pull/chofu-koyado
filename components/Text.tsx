@@ -1,4 +1,4 @@
-import ActiveLink from "./Sys/ActiveLink";
+import ActiveLink from "components/Sys/ActiveLink";
 
 const Text: React.FC = () => {
   return (

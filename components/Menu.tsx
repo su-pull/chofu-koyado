@@ -1,4 +1,4 @@
-import ActiveLink from "./Sys/ActiveLink";
+import ActiveLink from "components/Sys/ActiveLink";
 
 type BoolProps = {
   open: boolean;
