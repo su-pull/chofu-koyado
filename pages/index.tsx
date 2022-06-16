@@ -61,16 +61,14 @@ const Index: React.FC<HTMLTextAreaElement> = () => {
           <br />
           <h1 className="text-2xl">開催場所</h1>
           <dl>
-            <h2>
-              東京都調布市
-              <a href="https://www.tokyo-satsuki.jp/" className="satsuki scaleLinks" target="_blank">
-                さつきホスピタル病院
-              </a>
-              <div className="Kaiten inblo">前</div>. . .
-              <a href="https://soradai.kenseikai-group.or.jp/" className="blue scaleLinks" target="_blank">
-                空と大地と(カフェ)
-              </a>{" "}
-            </h2>
+            東京都調布市
+            <a href="https://www.tokyo-satsuki.jp/" className="satsuki scaleLinks" target="_blank">
+              さつきホスピタル病院
+            </a>
+            <div className="Kaiten inblo">前</div>. . .
+            <a href="https://soradai.kenseikai-group.or.jp/" className="blue scaleLinks" target="_blank">
+              空と大地と(カフェ)
+            </a>{" "}
             <p>詳細の所在地 : 〒182-0005 東京都 調布市東つつじヶ丘2-27-1</p>
             <p>駅より徒歩7分</p>
             <p>普段はカフェとして営業中です。美味しいのでぜひ足をお運びください。</p>
