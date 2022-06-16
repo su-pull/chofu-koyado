@@ -11,6 +11,7 @@
     "custom-property-pattern": null,
     "scss/at-rule-no-unknown": null,
     "declaration-block-no-duplicate-properties": null,
+    "declaration-block-no-redundant-longhand-properties": null,
     "no-duplicate-selectors": null,
     "selector-id-pattern": null
   }

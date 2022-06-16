@@ -66,9 +66,7 @@ $ME: rgb(0 0 0 / 75%);
 }
 
 @mixin Menu {
-  z-index: 4;
   position: relative;
-  transition-duration: 0.5s;
 }
 
 @mixin CenString {
