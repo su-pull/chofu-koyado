@@ -34,18 +34,18 @@ const Index: React.FC<HTMLTextAreaElement> = () => {
         <nav className="Yohaku">
           <ul className="List">
             <li>
-              <Scroll to="about" smooth={true} offset={-20} duration={500}>
-                <a className="scaleLinks">Content</a>
+              <Scroll className="scaleLinks" to="about" smooth={true} offset={-20} duration={500}>
+                Content
               </Scroll>
             </li>
             <li>
-              <Scroll to="rule" smooth={true} offset={-20} duration={500}>
-                <a className="scaleLinks">About</a>
+              <Scroll className="scaleLinks" to="rule" smooth={true} offset={-20} duration={500}>
+                About
               </Scroll>
             </li>
             <li>
-              <Scroll to="contact" smooth={true} offset={-20} duration={500}>
-                <a className="scaleLinks">Contact</a>
+              <Scroll className="scaleLinks" to="contact" smooth={true} offset={-20} duration={500}>
+                Contact
               </Scroll>
             </li>
           </ul>
@@ -73,7 +73,7 @@ const Index: React.FC<HTMLTextAreaElement> = () => {
             <p>駅より徒歩7分</p>
             <p>普段はカフェとして営業中です。美味しいのでぜひ足をお運びください。</p>
             <p>
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.839401384078!2d139.5749841293393!3d35.6563282309897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f18444ffb91f%3A0xa46e149d3debe437!2z56m644Go5aSn5Zyw44Go!5e0!3m2!1sja!2sjp!4v1654081097814!5m2!1sja!2sjp" width="600" height="450" className="Locale" loading="lazy" />
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.839401384078!2d139.5749841293393!3d35.6563282309897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f18444ffb91f%3A0xa46e149d3debe437!2z56m644Go5aSn5Zyw44Go!5e0!3m2!1sja!2sjp!4v1654081097814!5m2!1sja!2sjp" width="600" height="450" className="Locale" loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
             </p>
           </dl>
         </div>
