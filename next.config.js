@@ -25,8 +25,8 @@ const securityHeaders = [
   },
 
   {
-    key: "Content-Security-Policy",
-    value: "self",
+    key: "Cache-Control",
+    value: "private",
   },
 ];
 
